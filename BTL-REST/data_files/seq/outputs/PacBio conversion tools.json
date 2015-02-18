@@ -1,0 +1,1 @@
+{"author": "","hits": "961","cited": "0","refs": "0","label": "PacBio conversion tools",			"summary": ["Tools to convert from PacBio HDF5 format to other commonly used formats &amp; libraries to read HDF5 from Java &amp; R"],			"meth_tags": ["Programming Library","Conversion"],			"language": ["Java","R","Python"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "1016","cited": "15","refs": "1","label": "PoPoolation",			"summary": ["Toolbox specifically designed for the population genetic analysis of sequence data from pooled individuals."],			"bio_tags": ["Population genetics"],			"meth_tags": ["Pooled samples"],			"language": ["Perl","R"]		}

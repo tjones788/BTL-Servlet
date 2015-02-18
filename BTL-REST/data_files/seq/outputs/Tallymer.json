@@ -1,0 +1,1 @@
+{"author": "","hits": "1302","cited": "19","refs": "1","label": "Tallymer",			"summary": ["A collection of flexible and memory-efficient programs for k-mer counting and indexing of large sequence sets."],			"meth_tags": ["K-mer analysis","Suffix arrays"],			"features": ["Part of GenomeTools"],			"os": ["Linux"]		}

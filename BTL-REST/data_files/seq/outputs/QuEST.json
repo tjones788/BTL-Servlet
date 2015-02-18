@@ -1,0 +1,1 @@
+{"author": "","hits": "1233","cited": "194","refs": "1","label": "QuEST",			"summary": ["QuEST is a Kernel Density Estimator-based package for analysis of massively parallel sequencing data from chromatin immunoprecipitations (ChIP-Seq or ChIPseq)."],			"bio_tags": ["ChIP-Seq"],			"language": ["C++"],			"licence": ["GPLv2"]		}

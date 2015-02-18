@@ -1,0 +1,1 @@
+{"author": "","hits": "1678","cited": "0","refs": "0","label": "Nexalign",			"summary": ["Nexalign is a program to align millions of short reads from next-generation sequencing data sets to reference genomes"],			"meth_tags": ["Mapping"],			"language": ["C++","R"],			"licence": ["GPL"],			"os": ["UNIX"]		}

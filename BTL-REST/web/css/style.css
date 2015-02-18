@@ -1,0 +1,97 @@
+body{
+    background-color:#ffffff;
+}
+
+.redBG{
+    background-color:#ff0000;
+}
+
+.inputRow{
+    background-color: #666666;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.border{
+    border: 3px #ff0000 solid;
+}
+
+.bin {
+  min-height: 100px;
+  width:100%;
+  margin:0 auto;
+  border: 2px dashed red;
+  padding: 5px;
+}
+
+.listItem {
+  min-height: 50px;
+  min-width: 150px;
+  background: blue;
+  color:#fff;
+  margin:5px;
+  padding:3px;
+  border: 3px white solid;
+  list-style-type: none;
+}
+
+.drag {
+  opacity: 0.5;
+}
+.over {
+  background: red;
+}
+
+h1,h3{
+    color:#000;
+}
+h3{
+    color:#000;
+}
+
+.blackTxt{
+    color:#000;
+}
+
+#outputPanel{
+    color: white;
+}
+
+.list-group{
+    color:#000;
+}
+
+#similarToolsContainer{
+    
+}
+
+#similarToolsContainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: left;
+}
+
+#similarToolsContainer ul li { display: inline; padding:5px; }
+
+#similarToolsContainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
+}
+
+#similarToolsContainer ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+
+
+.toolCt{
+    color:red;
+    padding-left:3px;
+}

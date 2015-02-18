@@ -1,0 +1,1 @@
+{"author": "","hits": "6674","cited": "86","refs": "1","label": "CABOG",			"summary": ["Celera Assembler is scientific software for DNA research."],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Assembly"],			"features": ["Robust to homopolymer run length"],			"os": ["Linux"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "268","cited": "0","refs": "0","label": "SpliceGrapher",			"summary": ["SpliceGrapher is a package for creating splice graphs from RNA-Seq data, guided by gene models and EST data (when available)."],			"bio_tags": ["Alternative Splicing"],			"meth_tags": ["Visualization"]		}

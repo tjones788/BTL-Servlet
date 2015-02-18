@@ -1,0 +1,1 @@
+{"author": "","hits": "1017","cited": "6","refs": "1","label": "Sim4cc",			"summary": ["Cross-species spliced alignment of ESTs to genomes"],			"bio_tags": ["RNA-Seq Alignment","Comparative genomics"],			"meth_tags": ["Mapping"],			"language": ["C++"],			"licence": ["GPLv2"],			"os": ["UNIX","Linux"]		}

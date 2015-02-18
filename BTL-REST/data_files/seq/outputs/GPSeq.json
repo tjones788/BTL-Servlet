@@ -1,0 +1,1 @@
+{"author": "","hits": "1163","cited": "20","refs": "1","label": "GPSeq",			"summary": ["Analyze RNA-seq data to estimate gene and exon expression, identify differentially expressed genes, and differentially spliced exons"],			"bio_tags": ["RNA-Seq Quantitation"],			"language": ["R","C"]		}

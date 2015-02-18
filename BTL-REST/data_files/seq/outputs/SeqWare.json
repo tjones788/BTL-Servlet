@@ -1,0 +1,1 @@
+{"author": "","hits": "856","cited": "3","refs": "1","label": "SeqWare",			"summary": ["SeqWare provides tools designed to support massively parallel sequencing technologies."],			"meth_tags": ["LIMS","Workflow"],			"language": ["Java"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

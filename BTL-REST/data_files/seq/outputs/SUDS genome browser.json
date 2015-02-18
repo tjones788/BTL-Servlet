@@ -1,0 +1,1 @@
+{"author": "","hits": "660","cited": "0","refs": "0","label": "SUDS genome browser",			"summary": ["Compressed suffix tree implementation to browser genome sequences"],			"meth_tags": ["Genome browser"],			"language": ["C++"],			"licence": ["GPLv2"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "2292","cited": "0","refs": "0","label": "Nesoni",			"summary": ["Nesoni is a high-throughput sequencing data analysis toolset."],			"bio_tags": ["RNA-Seq Alignment","SNP discovery","Phylogenetics"],			"meth_tags": ["Alignment"],			"features": ["largely for bacterial genomes"],			"language": ["Python"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "2026","cited": "97","refs": "1","label": "DEGseq",			"summary": ["an R package to identify differentially expressed genes or isoforms for RNA-seq data from different samples"],			"bio_tags": ["RNA-Seq Quantitation"],			"meth_tags": ["Differentially expressed gene identification"],			"language": ["R"]		}

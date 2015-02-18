@@ -1,0 +1,1 @@
+{"author": "","hits": "1276","cited": "47","refs": "2","label": "SGA",			"summary": ["SGA is a de novo assembler designed to assemble large genomes from high coverage short read data."],			"meth_tags": ["Assembly"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

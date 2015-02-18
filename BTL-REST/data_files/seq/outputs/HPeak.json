@@ -1,0 +1,1 @@
+{"author": "","hits": "684","cited": "18","refs": "1","label": "HPeak",			"summary": ["Hidden Markov model (HMM)-based Peak-finding algorithm for analyzing ChIP-Seq data to identify protein-interacting genomic regions."],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Hidden Markov Model"]		}

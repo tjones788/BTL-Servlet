@@ -1,0 +1,1 @@
+{"author": "","hits": "242","cited": "0","refs": "0","label": "Circos",			"summary": ["Circos is tool for visualizing data in a circular format. It was developed for genomic data but can work for many other kinds of data as well."],			"bio_tags": ["Comparative genomics"],			"meth_tags": ["Visualization"],			"language": ["Perl"],			"os": ["Windows","Linux"]		}

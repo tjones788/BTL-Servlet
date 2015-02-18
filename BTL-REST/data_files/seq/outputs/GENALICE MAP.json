@@ -1,0 +1,1 @@
+{"cited": "0","refs": "0","label": "GENALICE MAP",			"summary": ["From FASTQ to VCF in 30 min or less. Ultra-fast Next-Generation Sequencing (NGS) read alignment and variant calling solution."],			"bio_tags": ["Genomics"],			"meth_tags": ["Mapping and variant calling"],			"features": ["ultrafast alignment and variant calling"],			"licence": ["Commercial"],			"os": ["Linux"]		}

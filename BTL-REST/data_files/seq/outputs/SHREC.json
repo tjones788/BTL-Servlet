@@ -1,0 +1,1 @@
+{"author": "","hits": "1040","cited": "17","refs": "1","label": "SHREC",			"summary": ["A new algorithm for correcting errors in short-read data that uses a generalized suffix trie on the read data as the underlying data structure"],			"meth_tags": ["Sequencing Quality Control","Error correction"],			"language": ["Java"]		}

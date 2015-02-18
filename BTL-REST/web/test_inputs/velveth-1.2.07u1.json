@@ -1,0 +1,297 @@
+{
+  "name": "velveth",
+  "version": "1.2.07",
+  "helpURI": "http://www.ebi.ac.uk/~zerbino/velvet/",
+  "label": "VelvetH 1.2.07",
+  "defaultQueue": "normal",
+  "defaultRequestedTime": "48:00:00",
+  "shortDescription": "Velveth, first step of genome assembly",
+  "longDescription": "Genome assembler for short sequencing reads, first stage.",
+  "executionSystem": "stampede.tacc.utexas.edu",
+  "executionType": "HPC",
+  "parallelism": "PARALLEL",
+  "deploymentPath": "/ipcservices/applications/velveth-1.2.07u1.zip",
+  "deploymentSystem": "data.iplantcollaborative.org",
+  "templatePath": "velveth_wrapper.sh",
+  "testPath": "test/velveth_wrapper_test.sh",
+  "checkpointable": true,
+  "tags": [
+    "assembler",
+    "NGS",
+    "Illumina",
+    " 454",
+    "EBI"
+  ],
+  "modules": [
+    "purge",
+    "load TACC",
+    "load irods"
+  ],
+  "inputs": [
+    {
+      "id": "reads3",
+      "details": {
+        "label": "Sequences:",
+        "description": "Sequence file in fastq, fasta, or sam format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reads6",
+      "details": {
+        "label": "Sequences:",
+        "description": "Reference sequence file in fasta format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reads2",
+      "details": {
+        "label": "Sequences:",
+        "description": "Sequence file in fastq, fasta, or sam format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reads5",
+      "details": {
+        "label": "Sequences:",
+        "description": "Sequence file in fastq, fasta, or sam format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reads4",
+      "details": {
+        "label": "Sequences:",
+        "description": "Sequence file in fastq, fasta, or sam format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reads1",
+      "details": {
+        "label": "Sequences:",
+        "description": "Sequence file in fastq, fasta, or sam format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "format5",
+      "details": {
+        "label": "sequence file format, library 5",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "format3",
+      "details": {
+        "label": "sequence file format, library 3",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "Output",
+      "details": {
+        "label": "Name for output directory",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "default": "VelvetDirectory",
+        "type": "string",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "format2",
+      "details": {
+        "label": "sequence file format, library 2",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "kmer",
+      "details": {
+        "label": "kmer size",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "format1",
+      "details": {
+        "label": "sequence file format, library 1",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "strandSpecific",
+      "details": {
+        "label": "strand specific",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "format4",
+      "details": {
+        "label": "sequence file format, library 4",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    }
+  ]
+}

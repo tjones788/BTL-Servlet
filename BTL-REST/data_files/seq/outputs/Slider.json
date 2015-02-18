@@ -1,0 +1,1 @@
+{"author": "","hits": "945","cited": "28","refs": "2","label": "Slider",			"summary": ["A new alignment approach  that reduces the alignment problem space by utilizing each read base's probabilities given in the Illumina prb files."],			"bio_tags": ["SNP discovery"],			"meth_tags": ["Mapping"],			"language": ["Java"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "1480","cited": "0","refs": "0","label": "Ngs-pipeline",			"summary": ["Complete solution for human re-sequencing projects"],			"bio_tags": ["Personal genomics","Epigenomics","Structural variation"],			"meth_tags": ["Mapping","InDel discovery","SNP calling","Sequence annotation"],			"language": ["Perl"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

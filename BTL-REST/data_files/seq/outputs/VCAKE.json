@@ -1,0 +1,1 @@
+{"author": "","hits": "1609","cited": "62","refs": "1","label": "VCAKE",			"summary": ["De novo assembly of short reads with robust error correction. An improvement on early versions of SSAKE."],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Assembly","K-mer analysis"],			"language": ["Perl","C"],			"licence": ["GPL"],			"os": ["Linux","Mac OS X"]		}

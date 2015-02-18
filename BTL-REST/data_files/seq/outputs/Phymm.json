@@ -1,0 +1,1 @@
+{"author": "","hits": "1057","cited": "72","refs": "1","label": "Phymm",			"summary": ["A classifier for metagenomic data, that has been trained on 539 complete, curated genomes and can accurately classify reads as short as 100 base pairs"],			"bio_tags": ["Metagenomics"],			"meth_tags": ["Hidden Markov Model"]		}

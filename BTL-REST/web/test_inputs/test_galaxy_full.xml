@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tool id="str1234" name="str1234" version="str1234" hidden="true" tool_type="data_source" URL_method="get">
+  <requirements>
+    <requirement type="python-module" version="str1234">str1234</requirement>
+  </requirements>
+  <description>str1234</description>
+  <parallelism method="basic" />
+  <command interpreter="str1234">str1234</command>
+  <configfiles>
+    <configfile name="str1234" type="template">str1234</configfile>
+  </configfiles>
+  <outputs>
+    <data name="str1234" format="str1234" format_source="str1234" metadata_source="str1234" label="str1234" from_work_dir="str1234" hidden="true">
+      <change_format>
+        <when input="str1234" value="str1234" format="str1234" />
+      </change_format>
+      <filter>str1234</filter>
+      <actions>
+        <action type="format" name="str1234" default="str1234">
+          <option type="from_data_table" name="str1234" column="1234" offset="1234" param_attribute="str1234">
+            <filter type="data_meta" name="str1234" column="1234" ref="str1234" key="str1234" separator="str1234" compare="startswith" keep="0" value="str1234" ref_attribute="str1234" />
+          </option>
+        </action>
+      </actions>
+    </data>
+  </outputs>
+  <inputs action="str1234" check_values="true" method="get" target="_top">
+    <param name="str1234" type="text" label="str1234" help="str1234" value="str1234" optional="str1234" min="1234" max="1234" format="str1234" data_ref="str1234" accept_default="true" force_select="true" display="checkboxes" multiple="0" numerical="0" hierarchy="exact" checked="yes" truevalue="str1234" falsevalue="str1234" size="123" metadata_name="str1234">???</param>
+	<param name="str4321" type="text" label="str1234" help="str1234" value="str1234" optional="str1234" min="1234" max="1234" format="str1234" data_ref="str1234" accept_default="true" force_select="true" display="checkboxes" multiple="0" numerical="0" hierarchy="exact" checked="yes" truevalue="str1234" falsevalue="str1234" size="123" metadata_name="str1234">???</param>
+<repeat name="series" title="Series">
+    <param name="testRepeatParam" type="data" format="repeatParamFormat1" label="Dataset"/>
+    <param name="xcol" type="data_column" data_ref="input" format="repeatParamFormat2" label="Column for x axis"/>
+    <param name="ycol" type="data_column" data_ref="input" format="repeatParamFormat3" label="Column for y axis"/>
+</repeat>
+<conditional name="testConditional">
+    <param name="source_select" type="select" label="Target source">
+        <option value="database">Genome Build</option>
+        <option value="input_ref">Your Upload File</option>
+    </param>
+    <when value="database">
+        <param name="dbkey" type="genomebuild" label="Genome" />
+    </when>
+    <when value="input_ref">
+        <param name="input_target" type="data" format="fasta" label="Reference sequence" />
+    </when>
+</conditional>  
+  </inputs>
+  <tests>
+    <test>
+      <param name="str1234" value="str1234" ftype="str1234" dbkey="str1234">
+        <embeddedValue>str1234</embeddedValue>
+      </param>
+      <output name="str1234" file="str1234" ftype="str1234" sort="0">
+        <embeddedValue>str1234</embeddedValue>
+      </output>
+    </test>
+  </tests>
+  <stdio>
+    <regex source="stdout" match="str1234" level="fatal" description="str1234" />
+    <exit_code range="str1234" level="fatal" description="str1234" />
+  </stdio>
+  <help>str1234</help>
+  <code file="str1234" />
+  <uihints minwidth="1234" />
+</tool>

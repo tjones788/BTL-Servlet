@@ -1,0 +1,1 @@
+{"author": "","hits": "959","cited": "0","refs": "0","label": "CGA Tools",			"summary": ["Tools for viewing, manipulating and converting data from Complete Genomics"],			"meth_tags": ["Conversion"],			"language": ["C++"],			"licence": ["Apache License 2.0"],			"os": ["Linux","UNIX","Mac OS X"]		}

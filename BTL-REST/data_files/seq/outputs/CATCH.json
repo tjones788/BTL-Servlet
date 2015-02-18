@@ -1,0 +1,1 @@
+{"author": "","hits": "1322","cited": "0","refs": "0","label": "CATCH",			"summary": ["A tool for exploring patterns in ChIP profiling data."],			"bio_tags": ["ChIP-Seq","ChIP-on-chip"],			"meth_tags": ["Clustering and alignment"],			"features": ["parallel execution","graphical browsing of results"],			"language": ["Java"],			"licence": ["Open Source"]		}

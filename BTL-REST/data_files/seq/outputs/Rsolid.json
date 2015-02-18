@@ -1,0 +1,1 @@
+{"author": "","hits": "848","cited": "4","refs": "1","label": "Rsolid",			"summary": ["Rsolid implements a version of the quantile normalization algorithm that transforms the intensity values before calling colors"],			"meth_tags": ["Colorspace","Basecaller"],			"language": ["R","C"]		}

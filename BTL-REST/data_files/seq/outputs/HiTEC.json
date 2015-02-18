@@ -1,0 +1,1 @@
+{"author": "","hits": "769","cited": "10","refs": "1","label": "HiTEC",			"summary": ["An algorithm which provides a highly accurate, robust, and fully automated method to correct reads produced by high-throughput sequencing methods."],			"meth_tags": ["Error correction"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "4693","cited": "100","refs": "2","label": "BFAST",			"summary": ["Blat-like Fast Accurate Search Tool."],			"bio_tags": ["Whole Genome Resequencing"],			"meth_tags": ["Mapping","Alignment","Genome Indexing","Colorspace"],			"features": ["parallel execution","command line"],			"language": ["C"],			"licence": ["GPL"],			"os": ["Solaris","UNIX"]		}

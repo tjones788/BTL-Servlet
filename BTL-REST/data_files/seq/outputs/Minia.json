@@ -1,0 +1,1 @@
+{"author": "","hits": "537","cited": "0","refs": "0","label": "Minia",			"summary": ["De novo assembly of human genomes on a desktop computer"],			"bio_tags": ["De novo assembly"],			"meth_tags": ["Assembly"],			"features": ["Memory efficient and fast"],			"language": ["C++"],			"licence": ["CeCILL"],			"os": ["Linux","Mac OS X"]		}

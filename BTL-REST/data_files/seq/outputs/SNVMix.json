@@ -1,0 +1,1 @@
+{"author": "","hits": "1643","cited": "44","refs": "1","label": "SNVMix",			"summary": ["Detects single nucleotide variants from next generation sequencing data."],			"bio_tags": ["SNP discovery"],			"language": ["C"],			"licence": ["MIT"]		}

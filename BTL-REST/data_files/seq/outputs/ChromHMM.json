@@ -1,0 +1,1 @@
+{"author": "","hits": "925","cited": "6","refs": "1","label": "ChromHMM",			"summary": ["ChromHMM is software for learning and characterizing chromatin states."],			"bio_tags": ["Epigenomics"],			"meth_tags": ["Hidden Markov Model","Segmentation"],			"language": ["Java"],			"licence": ["GPL 2"]		}

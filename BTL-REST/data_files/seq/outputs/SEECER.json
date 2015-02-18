@@ -1,0 +1,1 @@
+{"author": "","hits": "288","cited": "0","refs": "1","label": "SEECER",			"summary": ["Error correction for RNA-Seq data"],			"bio_tags": ["RNA Seq analysis"],			"features": ["supports multicore processors"],			"language": ["C"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "807","cited": "2","refs": "1","label": "CloudAligner",			"summary": ["Hadoop-based short read aligner"],			"meth_tags": ["Mapping","Hadoop"],			"language": ["Java"],			"licence": ["GPL"],			"os": ["cloud"]		}

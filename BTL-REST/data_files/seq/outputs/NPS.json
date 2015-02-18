@@ -1,0 +1,1 @@
+{"author": "","hits": "915","cited": "33","refs": "1","label": "NPS",			"summary": ["Identify nucleosome positions given histone-modification ChIP-seq or nucleosome sequencing at the nucleosome level."],			"bio_tags": ["Epigenomics","ChIP-Seq"],			"language": ["Python"]		}

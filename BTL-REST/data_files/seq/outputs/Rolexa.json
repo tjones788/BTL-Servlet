@@ -1,0 +1,1 @@
+{"author": "","hits": "774","label": "Rolexa",			"summary": ["Allows fast and accurate base calling of Solexa's fluorescence intensity files and the production of informative diagnostic plots."],			"bio_tags": ["Sequencing"],			"meth_tags": ["Basecaller"],			"language": ["R"]		}

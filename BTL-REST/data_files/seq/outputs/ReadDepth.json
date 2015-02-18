@@ -1,0 +1,1 @@
+{"author": "","hits": "1248","cited": "8","refs": "1","label": "ReadDepth",			"summary": ["Detects copy number aberrations in deep sequencing data"],			"bio_tags": ["Copy number estimation"],			"language": ["R"],			"licence": ["Apache License 2.0"]		}

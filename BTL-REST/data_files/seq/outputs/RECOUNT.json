@@ -1,0 +1,1 @@
+{"author": "","hits": "1167","cited": "0","refs": "1","label": "RECOUNT",			"summary": ["Probabilistic tag count error correction for  next generation sequencing data (Solexa\/Illumina)."],			"bio_tags": ["RNA-Seq Quantitation"],			"meth_tags": ["Expectation Maximization"],			"language": ["C++"],			"licence": ["GPL"],			"os": ["Linux"]		}

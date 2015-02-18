@@ -1,0 +1,1 @@
+{"author": "","hits": "397","cited": "0","refs": "0","label": "HiPipe",			"summary": ["HiPipe is to make NGS data analysis quick and easy with high performance pipelines and intuitive web GUI."],			"bio_tags": ["Genomics"],			"meth_tags": ["Mapping","Variant detection","Analysis Pipeline"],			"language": ["JavaScript; Java","BASH"],			"os": ["platform-independent"]		}

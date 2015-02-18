@@ -1,0 +1,1 @@
+{"author": "","hits": "782","cited": "11","refs": "1","label": "SLOPE",			"summary": ["Detects structural variants from targeted short DNA reads"],			"bio_tags": ["Structural variation","Targeted resequencing"],			"language": ["C++"]		}

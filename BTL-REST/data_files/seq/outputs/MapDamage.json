@@ -1,0 +1,1 @@
+{"author": "","hits": "765","cited": "7","refs": "2","label": "MapDamage",			"summary": ["Identifies and quantifies DNA damage patterns in ancient DNA"],			"bio_tags": ["Ancient DNA","DNA-Seq"],			"meth_tags": ["Quality Control","Statistical Modelling"],			"language": ["Python","R"],			"os": ["Linux","Mac OS X"]		}

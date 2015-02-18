@@ -1,0 +1,1 @@
+{"author": "","hits": "2470","cited": "457","refs": "1","label": "MACS",			"summary": ["Model-based Analysis of ChIP-Seq data."],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Peak calling"],			"language": ["Python"],			"licence": ["Artistic License"],			"os": ["platform-independent"]		}

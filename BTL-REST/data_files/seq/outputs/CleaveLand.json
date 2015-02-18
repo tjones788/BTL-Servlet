@@ -1,0 +1,1 @@
+{"author": "","hits": "999","cited": "36","refs": "1","label": "CleaveLand",			"summary": ["A pipeline for using degradome data to find cleaved small RNA targets."],			"bio_tags": ["MiRNA"],			"language": ["Perl","R"],			"licence": ["Freeware"]		}

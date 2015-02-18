@@ -1,0 +1,1 @@
+{"author": "","hits": "800","cited": "8","refs": "1","label": "CUDA-EC",			"summary": ["A scalable parallel algorithm for correcting sequencing errors in high-throughput short-read data so that error-free reads can be available before DNA fragment assembly."],			"meth_tags": ["Sequencing Quality Control","GPU"],			"features": ["read error correction"],			"language": ["C"]		}

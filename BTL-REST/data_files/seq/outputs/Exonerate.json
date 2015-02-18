@@ -1,0 +1,1 @@
+{"author": "","hits": "1974","cited": "190","refs": "1","label": "Exonerate",			"summary": ["Various forms of alignment (including Smith-Waterman-Gotoh) of DNA\/protein against a reference. Authors are Guy St C Slater and Ewan Birney from EMBL. C for POSIX."],			"meth_tags": ["Alignment"],			"language": ["C"],			"licence": ["GPL"],			"os": ["Linux"]		}

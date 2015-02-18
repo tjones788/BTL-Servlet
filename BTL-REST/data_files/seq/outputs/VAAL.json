@@ -1,0 +1,1 @@
+{"author": "","hits": "1367","cited": "16","refs": "1","label": "VAAL",			"summary": ["VAAL is a variant ascertainment algorithm that can be used to detect SNPs, indels, and more complex genetic variants."],			"bio_tags": ["Structural variation","SNP discovery","InDel discovery"],			"meth_tags": ["Alignment"]		}

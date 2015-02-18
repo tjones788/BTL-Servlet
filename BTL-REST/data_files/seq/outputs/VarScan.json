@@ -1,0 +1,1 @@
+{"author": "","hits": "1456","cited": "140","refs": "2","label": "VarScan",			"summary": ["VarScan, an open source tool for variant detection that is compatible with several short read align-ers."],			"bio_tags": ["SNP discovery"],			"features": ["SNP calling"],			"language": ["Java"]		}

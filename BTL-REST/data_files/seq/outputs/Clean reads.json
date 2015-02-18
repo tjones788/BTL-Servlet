@@ -1,0 +1,1 @@
+{"author": "","hits": "1180","cited": "0","refs": "0","label": "Clean reads",			"summary": ["clean_reads cleans NGS (Sanger, 454, Illumina and solid) reads."],			"meth_tags": ["Trimming","Sequencing Quality Control"],			"language": ["Python"]		}

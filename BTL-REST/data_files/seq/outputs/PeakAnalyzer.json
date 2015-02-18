@@ -1,0 +1,1 @@
+{"author": "","hits": "208","cited": "0","refs": "0","label": "PeakAnalyzer",			"summary": ["PeakAnalyzer is a set of applications for processing ChIP signal peaks."],			"bio_tags": ["Functional Genomics"],			"meth_tags": ["ChIP-Seq analysis"],			"language": ["Java","C++","R"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "5049","cited": "107","refs": "1","label": "BreakDancer",			"summary": ["BreakDancer is an application for detecting structural rearrangements and indels in short read sequencing data"],			"bio_tags": ["Genomics","Structural variation","InDel discovery"],			"language": ["Perl","C++"],			"licence": ["GPLv3"]		}

@@ -1,0 +1,354 @@
+{
+  "name": "scarf",
+  "version": "1.00",
+  "helpURI": "http://barkerlab.net/software#scarf",
+  "label": "SCARF: Scaffolded and Corrected Assembly of Roche 454",
+  "defaultQueue": "normal",
+  "defaultRequestedTime": "12:00:00",
+  "shortDescription": "A next-gen sequence assembly tool for evolutionary genomics. Designed especially for assembling 454 EST sequences against high quality reference sequences from related species.",
+  "executionSystem": "stampede.tacc.utexas.edu",
+  "executionType": "HPC",
+  "parallelism": "PARALLEL",
+  "deploymentPath": "/ipcservices/applications/scarf-1.00u1.zip",
+  "deploymentSystem": "data.iplantcollaborative.org",
+  "templatePath": "wrapper.sge",
+  "testPath": "library/test.sh",
+  "tags": [
+    "next-gen",
+    "assember",
+    "rnaseq",
+    "454"
+  ],
+  "modules": [
+    "purge",
+    "load TACC",
+    "swap intel gcc",
+    "load irods/2.5"
+  ],
+  "inputs": [
+    {
+      "id": "queryQuality",
+      "details": {
+        "label": "Optional 454 base quality file",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util/Sequence"
+        ]
+      },
+      "value": {
+        "default": "/shared/iplantcollaborative/example_data/agave_api/scarf-1.00/454.qual",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "queryFasta",
+      "details": {
+        "label": "454 sequences (FASTA format)",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util/Sequence"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "default": "/shared/iplantcollaborative/example_data/agave_api/scarf-1.00/454.fasta",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "refSeq",
+      "details": {
+        "label": "Reference sequence (FASTA)",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util/Sequence"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "default": "/shared/iplantcollaborative/example_data/agave_api/scarf-1.00/reference.fasta",
+        "required": true,
+        "visible": true
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "mbEval",
+      "details": {
+        "label": "MegaBLAST expectation value",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:double"
+        ]
+      },
+      "value": {
+        "default": "0.1",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbDiscont",
+      "details": {
+        "label": "Perform discontinuous MegaBLAST",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      },
+      "value": {
+        "default": "true",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "repeatCorr",
+      "details": {
+        "label": "Enable repeat correction",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      },
+      "value": {
+        "default": "false",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbMinHit",
+      "details": {
+        "label": "MegaBLAST minimum hit score",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "150",
+        "type": "number",
+        "validator": "\\d++",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbProcs",
+      "details": {
+        "label": "Megablast processors",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "12",
+        "type": "number",
+        "validator": "fa|fq",
+        "required": true,
+        "visible": false
+      }
+    },
+    {
+      "id": "mbWord",
+      "details": {
+        "label": "MegaBLAST word size",
+        "description": "11|12",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "11",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbTempLen",
+      "details": {
+        "label": "MegaBLAST template length",
+        "description": "16|18|21",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "18",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbIdent",
+      "details": {
+        "label": "MegaBLAST identity",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "96",
+        "type": "number",
+        "validator": "\\d++",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "gapChar",
+      "details": {
+        "label": "Character used for gaps",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "default": "-",
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "extendRef",
+      "details": {
+        "label": "Extend the reference sequence",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      },
+      "value": {
+        "default": "false",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "numThreads",
+      "details": {
+        "label": "Number of threads for SCARF",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "12",
+        "type": "number",
+        "validator": "\\d++",
+        "required": false,
+        "visible": false
+      }
+    },
+    {
+      "id": "mb2Hit",
+      "details": {
+        "label": "MegaBLAST 2-hit window size",
+        "description": "\\d++",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "50",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "minRepeatCorr",
+      "details": {
+        "label": "Minimum repeat length for correction",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "4",
+        "type": "number",
+        "validator": "\\d++",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "mbTempType",
+      "details": {
+        "label": "MegaBLAST template type",
+        "description": "0|1|2",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "0",
+        "type": "number",
+        "visible": true,
+        "required": false
+      }
+    }
+  ],
+  "checkpointable": false
+}

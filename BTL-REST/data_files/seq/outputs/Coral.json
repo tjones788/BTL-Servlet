@@ -1,0 +1,1 @@
+{"author": "","hits": "834","cited": "4","refs": "1","label": "Coral",			"summary": ["Corrects sequencing errors in short read data via multiple alignments"],			"meth_tags": ["Error correction"],			"language": ["C++"]		}

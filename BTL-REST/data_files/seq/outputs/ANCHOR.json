@@ -1,0 +1,1 @@
+{"author": "","hits": "865","cited": "0","refs": "0","label": "ANCHOR",			"summary": ["Post-processing tools for de novo assemblies"],			"meth_tags": ["Assembly","Assembly QC"],			"language": ["C++","Python"],			"licence": ["BCCA (academic use)"],			"os": ["Linux"]		}

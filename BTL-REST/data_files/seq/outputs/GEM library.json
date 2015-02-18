@@ -1,0 +1,1 @@
+{"author": "","hits": "1273","cited": "0","refs": "0","label": "GEM library",			"summary": ["A set of very optimized tools for indexing\/querying huge genomes\/files. Provided so far: a very fast exact mapper, and an unconstrained split-mapper"],			"meth_tags": ["Mapping","Programming Library","Colorspace"],			"language": ["C","Python","OCaml"],			"licence": ["GPLv3"]		}

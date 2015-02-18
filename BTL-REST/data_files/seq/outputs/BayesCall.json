@@ -1,0 +1,1 @@
+{"author": "","hits": "1166","cited": "21","refs": "1","label": "BayesCall",			"summary": ["Bayesian basecaller"],			"bio_tags": ["Sequencing"],			"meth_tags": ["Basecaller"],			"language": ["C++","Python"],			"licence": ["GPLv3"]		}

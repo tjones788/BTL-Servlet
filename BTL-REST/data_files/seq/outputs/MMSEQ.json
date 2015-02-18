@@ -1,0 +1,1 @@
+{"author": "","hits": "1539","cited": "14","refs": "1","label": "MMSEQ",			"summary": ["Pipeline and methodology for simultaneously estimating isoform expression and allelic imbalance in diploid organisms using RNA-seq data."],			"bio_tags": ["Allele-specific transcription"],			"language": ["C++"],			"os": ["Mac OS X","Linux 64"]		}

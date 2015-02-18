@@ -1,0 +1,1 @@
+{"author": "","hits": "1613","cited": "3","refs": "1","label": "Meraculous",			"summary": ["De novo genome assembler from short reads"],			"meth_tags": ["Assembly"],			"features": ["De novo assembly","scaffolding"],			"language": ["Perl","C"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "710","cited": "8","refs": "1","label": "PeakRanger",			"summary": ["A multi-purpose, ultrafast ChIP Seq peak caller"],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Peak calling"],			"language": ["C++"],			"licence": ["Artistic License"],			"os": ["Linux","Mac OS X"]		}

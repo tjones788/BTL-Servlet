@@ -1,0 +1,1 @@
+{"author": "","hits": "3399","cited": "0","refs": "0","label": "Sff2fastq",			"summary": ["The program 'sff2fastq' extracts read information from a SFF file, produced by the 454 genome sequencer, and outputs the sequences and quality scores in a FASTQ format."],			"meth_tags": ["Conversion"],			"os": ["Linux"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "1635","cited": "76","refs": "1","label": "MetaSim",			"summary": ["The software can be used to generate collections of synthetic reads."],			"bio_tags": ["Metagenomics","Genomics"],			"meth_tags": ["Simulation","Assembly","Mapping"],			"language": ["Java"],			"licence": ["Commercial","Freeware"]		}

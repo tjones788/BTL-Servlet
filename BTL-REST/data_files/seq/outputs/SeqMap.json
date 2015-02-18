@@ -1,0 +1,1 @@
+{"author": "","hits": "1475","cited": "71","refs": "1","label": "SeqMap",			"summary": ["SeqMap is a tool for mapping large amount of short sequences to the genome."],			"meth_tags": ["Mapping"],			"features": ["command line","parallel execution"],			"os": ["Mac OS X","Windows","Linux"]		}

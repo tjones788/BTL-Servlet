@@ -1,0 +1,1 @@
+{"author": "","hits": "1497","cited": "49","refs": "3","label": "LAST",			"summary": ["Short read alignment program incorporating quality scores"],			"bio_tags": ["Genomics","Comparative genomics"],			"meth_tags": ["Alignment"],			"language": ["C++"],			"licence": ["GPLv3"]		}

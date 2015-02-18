@@ -1,0 +1,1 @@
+{"author": "","hits": "1789","cited": "46","refs": "1","label": "Stampy",			"summary": ["Uses a hybrid mapping algorithm and a detailed statistical model to achieve both speed and sensitivity, particularly when reads include sequence variation."],			"meth_tags": ["Mapping"],			"language": ["Python"],			"licence": ["Commercial","Freeware"],			"os": ["Linux"]		}

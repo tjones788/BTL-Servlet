@@ -1,0 +1,1 @@
+{"author": "","hits": "582","cited": "3","refs": "1","label": "GRS",			"summary": ["Reference-based data compression for storage of resequencing data"],			"meth_tags": ["Data compression"],			"features": ["sequence compression"],			"language": ["C","Bourne shell"],			"licence": ["Commercial","Freeware"],			"os": ["Linux","Linux 64"]		}

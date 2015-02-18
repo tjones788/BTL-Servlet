@@ -1,0 +1,1 @@
+{"author": "","hits": "3503","cited": "127","refs": "1","label": "SOAPsnp",			"summary": ["SOAPsnp is an accurate consensus sequence builder based on soap1 and SOAPaligner\/soap2's alignment output. It calculates a quality score for each consensus base, which can be used for any latter process to call SNPs."],			"bio_tags": ["SNP discovery"],			"language": ["C","C++"]		}

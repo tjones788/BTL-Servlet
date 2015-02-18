@@ -1,0 +1,1 @@
+{"author": "","hits": "5080","cited": "3460","refs": "2","label": "Phred",			"summary": ["The phred software reads DNA sequencing trace files, calls bases, and assigns a quality value to each called base."],			"meth_tags": ["Basecaller"],			"language": ["C"],			"os": ["Solaris","IRIX","AIX"]		}

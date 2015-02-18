@@ -1,0 +1,1 @@
+{"author": "","hits": "1023","cited": "4","refs": "1","label": "FACS",			"summary": ["Rapid and accurate classification of sequences as belonging or not belonging to a reference sequence."],			"bio_tags": ["Metagenomics"],			"meth_tags": ["Bloom filters"],			"language": ["Perl","f"],			"licence": ["GPLv2"],			"os": ["Linux"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "1449","cited": "32","refs": "1","label": "SeqAn",			"summary": ["C++ template library with many sequence analysis algorithms and datastructures."],			"bio_tags": ["Sequence analysis","Genomics","Phylogenetics"],			"meth_tags": ["Programming Library"],			"language": ["C++"],			"licence": ["BSD (3-clause)"],			"os": ["UNIX","Mac OS X","Windows"]		}

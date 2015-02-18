@@ -1,0 +1,682 @@
+BFAST	BFAST	Andreas.sjodin	4,693
+Cutadapt	Cutadapt	Dan	1,728
+BreakDancer	BreakDancer	Dan	5,049
+Bowtie	Bowtie	Salzberg	9,163
+ZOOM	ZOOM	Krobison	1,175
+SSAHA	SSAHA	Dan	2,033
+CNVkit	CNVkit		
+Genedata Expressionist	Genedata Expressionist		
+ADTEx	ADTEx		
+Cluster Flow	Cluster Flow		
+GENALICE MAP	GENALICE MAP		
+Easyfig	Easyfig		
+IMAGE	IMAGE		
+HINT	HINT		
+Avadis NGS	Avadis NGS	Dan	3,055
+NarrowPeaks	NarrowPeaks	Lpantano	150
+CexoR	CexoR	Pmad	132
+Tablet	Tablet	Dan	2,069
+Spiral Genetics	Spiral Genetics	Dan	2,079
+SplicePlot	SplicePlot		
+Skewer	Skewer	Relipmoc	312
+ERANGE	ERANGE	Slowkow	3,502
+DESeq	DESeq	Michael Love	14,316
+PeakTrace	PeakTrace		
+DCLIP	DCLIP		
+Ngs.plot	Ngs.plot		
+BreakTrans	BreakTrans	Marcowanger	185
+BBMap	BBMap	Brian Bushnell	711
+BioPHP	BioPHP	Olecranon	142
+BioRuby	BioRuby	Olecranon	163
+BioPerl	BioPerl	Olecranon	145
+BioJava	BioJava	Olecranon	146
+RAST	RAST	Olecranon	124
+MG-RAST	MG-RAST	Olecranon	2,345
+Post Assembly Genome Improvement Toolkit	Post Assembly Genome Improvement Toolkit	Olecranon	313
+Galaxy	Galaxy	Olecranon	165
+KBASE	KBASE	Olecranon	125
+MrBayes	MrBayes	Olecranon	95
+FHiTINGS	FHiTINGS	Olecranon	105
+BLAST Ring Image Generator	BLAST Ring Image Generator	Olecranon	202
+NCBI Genome Workbench	NCBI Genome Workbench	Olecranon	101
+Circos	Circos	Olecranon	242
+BOW	BOW	Olecranon	65
+.NET BIO	.NET BIO	Olecranon	179
+A5	A5	Olecranon	241
+BWA-SW	BWA-SW	Dfornika	6,365
+DeepTools	DeepTools	Bgruening	430
+MISO	MISO	Jb2	1,144
+Methpipe	Methpipe	Qiangsong	573
+FaBox	FaBox	BrianFoleyLANL	130
+FeatureCounts	FeatureCounts	Shi	495
+GenoREAD	GenoREAD	Mandywil	140
+CEQer	CEQer	RGP	203
+FusionAnalyser	FusionAnalyser	RGP	717
+DiscoSnp	DiscoSnp	Pierre.peterlongo	239
+VisSR	VisSR	Lpantano	308
+Ingenuity Variant Analysis	Ingenuity Variant Analysis	Lpantano	724
+QuadGT	QuadGT	Lpantano	340
+SOAPfusion	SOAPfusion	Lpantano	146
+Meerkat	Meerkat	Lpantano	472
+Cufflinks	Cufflinks	Lpantano	4,535
+Geneious	Geneious	Lpantano	8,958
+Genome Trax	Genome Trax	Lpantano	1,371
+Ngs-pipeline	Ngs-pipeline	Lpantano	1,480
+Sequedex	Sequedex	Lpantano	410
+RDiff	RDiff	Lpantano	351
+Syapse	Syapse	Lpantano	673
+SeqSolve	SeqSolve	Lpantano	2,158
+GeneProf	GeneProf	Lpantano	984
+DNaseR	DNaseR	Pmad	157
+DiffBind	DiffBind	Lpantano	281
+Mauve	Mauve	Lpantano	3,834
+SeqSite	SeqSite	Lpantano	430
+NucleR	NucleR	Lpantano	1,196
+SPP	SPP	Lpantano	1,104
+GEM	GEM	Lpantano	613
+Vcflib	Vcflib	Kevyin	161
+BFCounter	BFCounter	Pmelsted	591
+Vectorfriends	Vectorfriends	Duncan1201	155
+FastQ Screen	FastQ Screen	Mariogiov	1,968
+TopHat	TopHat	Salzberg	4,881
+MUMmer	MUMmer	Salzberg	9,436
+ISAAC	ISAAC	Roman.petrovski@gmail.com	310
+GenomeView	GenomeView	Dan	1,044
+Bis-SNP	Bis-SNP	Dan	764
+CLEVER	CLEVER	Dan	1,534
+Mason	Mason	Dan	1,456
+LobSTR	LobSTR	Dan	929
+RazerS	RazerS	Dan	1,729
+QUAST	QUAST	Dan	1,113
+CHiPSeq	CHiPSeq	Dan	2,593
+Standalone hamming	Standalone hamming	Dan	875
+BS Seeker	BS Seeker	Dan	1,100
+TileQC	TileQC	Dan	914
+ERGO Genome Analysis and Discovery System	ERGO Genome Analysis and Discovery System	Dan	420
+CloudBurst	CloudBurst	Andreas.sjodin	1,827
+PiCall	PiCall	Andreas.sjodin	543
+Subread	Subread	Shi	584
+MapDamage	MapDamage	Lpantano	765
+Patchwork	Patchwork	Lpantano	270
+CLCbio Genomics Workbench	CLCbio Genomics Workbench	Lpantano	5,494
+Tally	Tally	Lpantano	520
+Illuminate	Illuminate	Nthmost	273
+Diffreps	Diffreps	Lpantano	626
+ChIP-Seq (application)	ChIP-Seq (application)	Lpantano	1,587
+Pipeline Pilot	Pipeline Pilot	Lpantano	2,173
+NGSUtils	NGSUtils	Lpantano	772
+HiPipe	HiPipe	Lpantano	397
+GenomeBrowse	GenomeBrowse	Lpantano	518
+Flexbar	Flexbar	Lpantano	2,271
+DSGseq	DSGseq	Lpantano	410
+BSSim	BSSim	Lpantano	689
+Mlgt	Mlgt	Lpantano	718
+Bcbio-nextgen	Bcbio-nextgen	Dan	1,849
+Lab7	Lab7	Lab7 Systems	239
+Bison	Bison	Dpryan	234
+SwDMR	SwDMR	Xfliwz	2,058
+QualiMap	QualiMap	Marcowanger	279
+MiRspring	MiRspring	Scytale	190
+WebApollo	WebApollo	Girlwithglasses	463
+GeneTalk	GeneTalk	Knaus	860
+Strelka	Strelka	Lethalfang	320
+Atlas-SNP2	Atlas-SNP2	Dan	2,137
+VirusSeq	VirusSeq	Dan	568
+Newbler	Newbler	Dan	7,366
+HeliSphere	HeliSphere	Dan	1,378
+BLAT	BLAT	Dan	3,058
+VAAST	VAAST	Dan	874
+MEGAN	MEGAN	Dan	1,480
+ANNOVAR	ANNOVAR	Dan	5,235
+GenVision	GenVision	Dan	1,124
+SeqMan NGen	SeqMan NGen	Dan	5,219
+TOTALRECALLER	TOTALRECALLER	Dan	325
+Stampy	Stampy	Dan	1,789
+SeqBuster	SeqBuster	Dan	1,493
+SUTTA	SUTTA	Dan	584
+SPLINTER	SPLINTER	Dan	1,485
+PARalyzer	PARalyzer	Dan	506
+Novocraft	Novocraft	Dan	5,077
+MrCaNaVaR	MrCaNaVaR	Dan	1,183
+MetaSim	MetaSim	Dan	1,635
+GPS	GPS	Dan	509
+ABySS	ABySS	Dan	47,749
+DNA Baser	DNA Baser	Dan	2,915
+DNA Chromatogram Explorer	DNA Chromatogram Explorer	Dan	2,018
+RSAT peak-motifs	RSAT peak-motifs	Dan	1,517
+ChIPMunk	ChIPMunk	Dan	2,446
+Rnnotator	Rnnotator	Dan	2,040
+GRS	GRS	Dan	582
+Omixon Variant Toolkit	Omixon Variant Toolkit	Dan	7,531
+FusionMap	FusionMap	Dan	1,385
+PaCGeE	PaCGeE	Dan	759
+GenomeJack	GenomeJack	Dan	963
+RTG Investigator	RTG Investigator	Dan	1,655
+Genomatix Mining Station (GMS)	Genomatix Mining Station (GMS)	Dan	1,838
+SOLID software tools	SOLID software tools	Dan	1,456
+Array Suite (Array Studio/Server)	Array Suite (Array Studio/Server)	Dan	1,440
+QSeq	QSeq	Dan	1,527
+Lasergene	Lasergene	Dan	3,351
+ArrayStar	ArrayStar	Dan	1,642
+SeqGSEA	SeqGSEA	Dan	322
+CompreheNGSive	CompreheNGSive	Dan	314
+CRAC	CRAC	Mikael	285
+GenoViewer	GenoViewer	Dan	1,328
+EdgeR	EdgeR	Dan	13,394
+FACS	FACS	Dan	1,023
+FusionSeq	FusionSeq	Dan	1,972
+GBrowse	GBrowse	Dan	999
+Genomedata	Genomedata	Dan	560
+GenoMiner	GenoMiner	Dan	1,828
+GimmeMotifs	GimmeMotifs	Dan	1,359
+MUMmerGPU	MUMmerGPU	Dan	1,312
+Samscope	Samscope	Dan	1,157
+SeqMINER	SeqMINER	Dan	2,755
+V-Xtractor	V-Xtractor	Dan	719
+BAMseek	BAMseek	Dan	2,839
+SEECER	SEECER	Dan	288
+CNB MetaGenomics tools	CNB MetaGenomics tools	Dan	324
+Oases	Oases	MarcelS	4,349
+RUbioSeq	RUbioSeq	Gonvader	270
+GensearchNGS	GensearchNGS	David2	975
+BioSmalltalk	BioSmalltalk	Hmdurand	204
+Subjunc	Subjunc	Shi	444
+Rsubread	Rsubread	Shi	269
+Mutascope	Mutascope	Shawn yost	283
+FusionCatcher	FusionCatcher	Ndaniel	419
+EBCall	EBCall	Marcowanger	239
+Seq2HLA	Seq2HLA	Seb.boegel	764
+STAR	STAR	Alexdobin	898
+MuTect	MuTect	Marcowanger	525
+VirusHunter	VirusHunter	Marcowanger	195
+Tripal	Tripal	Girlwithglasses	316
+JBrowse	JBrowse	Girlwithglasses	367
+Sibelia	Sibelia	Vyahhi	634
+Baa.pl	Baa.pl	Jfryan	310
+Ea-utils	Ea-utils	Earonesty	1,441
+SeqSaw	SeqSaw	Xi Wang	258
+Quip	Quip	Dcjones	273
+ViralFusionSeq	ViralFusionSeq	Marcowanger	982
+Bedutils	Bedutils	Marcowanger	272
+RACA	RACA	Marcowanger	194
+Velvet	Velvet	Winsettz	17,245
+SNPSeeker	SNPSeeker	Dan	1,982
+Bort	Bort	Dan	542
+Adapter Removal (software)	Adapter Removal (software)	Dan	3,044
+SpliceGrapher	SpliceGrapher	Marcowanger	268
+SomaticCall	SomaticCall	Dan	968
+PeakAnalyzer	PeakAnalyzer	Zoolium	208
+Minia	Minia	Rayanc	537
+Reaper	Reaper	Micans	1,777
+Chipster	Chipster	Dan	2,723
+Gowinda	Gowinda	Dan	658
+TEQC	TEQC	Dan	541
+Shore	Shore	Dan	1,442
+RGA	RGA	Dan	782
+Error Correction Evaluation Toolkit	Error Correction Evaluation Toolkit	Dan	383
+MiRanalyzer	MiRanalyzer	Dan	2,139
+WebPrInSeS	WebPrInSeS	Dan	382
+RDP Pyrosequencing Pipeline	RDP Pyrosequencing Pipeline	Dan	3,382
+EpiGRAPH	EpiGRAPH	Dan	466
+DSAP	DSAP	Dan	1,233
+IOmics	IOmics	Dan	1,564
+Bionimbus	Bionimbus	Dan	681
+Megraft	Megraft	Dan	679
+Vicuna	Vicuna	Dan	564
+VARiD	VARiD	Dan	1,262
+NovelSeq	NovelSeq	Dan	2,308
+Kissnp	Kissnp	Dan	812
+Illuminator	Illuminator	Dan	598
+ECHO	ECHO	Dan	795
+Syzygy	Syzygy	Dan	1,567
+FREEC	FREEC	Dan	2,206
+ExomeCopy	ExomeCopy	Dan	1,252
+Contra	Contra	Dan	1,244
+CNANorm	CNANorm	Dan	1,488
+Sherman	Sherman	Fkrueger	1,154
+ExomePicks	ExomePicks	Dan	410
+Arf	Arf	Dan	355
+Genometa	Genometa	Colindaven	962
+METAGENassist	METAGENassist	Darndt	781
+ClipCrop	ClipCrop	Marcowanger	400
+Metaxa	Metaxa	Dan	1,128
+Breakway	Breakway	Dan	2,530
+4peaks	4peaks	Dan	2,340
+Biopieces	Biopieces	Dan	869
+Gk arrays	Gk arrays	Dan	722
+MochiView	MochiView	Dan	1,988
+Cistrome	Cistrome	Dan	846
+Repitools	Repitools	Dan	1,088
+CisGenome	CisGenome	Dan	2,548
+ChromaSig	ChromaSig	Dan	1,113
+ChIPmeta	ChIPmeta	Dan	1,080
+CATCH	CATCH	Dan	1,322
+CARPET	CARPET	Dan	1,084
+VariationHunter	VariationHunter	Dan	5,867
+VAAL	VAAL	Dan	1,367
+SVMerge	SVMerge	Dan	889
+SVDetect	SVDetect	Dan	1,371
+SLOPE	SLOPE	Dan	782
+ReSeqSim	ReSeqSim	Dan	884
+Pindel	Pindel	Dan	5,259
+PEMer	PEMer	Dan	956
+NGS-DesignTools	NGS-DesignTools	Dan	1,151
+GASV	GASV	Dan	2,115
+DNAA	DNAA	Dan	3,433
+CopySeq	CopySeq	Dan	1,777
+CNVer	CNVer	Dan	2,459
+CnvHMM	CnvHMM	Dan	2,102
+CNAseg	CNAseg	Dan	1,173
+CNAseg	CNAseg	Dan	1,173
+BreakSeq	BreakSeq	Dan	1,826
+AGE	AGE	Dan	1,059
+Sim4cc	Sim4cc	Dan	1,017
+LAST	LAST	Dan	1,497
+DIAL	DIAL	Dan	1,107
+SOCS	SOCS	Dan	1,544
+RMAP	RMAP	Dan	1,151
+PASH	PASH	Dan	760
+MethylCoder	MethylCoder	Dan	2,524
+MethMarker	MethMarker	Dan	384
+MetMap	MetMap	Dan	734
+GSNAP	GSNAP	Dan	8,062
+Kismeth	Kismeth	Dan	1,018
+Bismark	Bismark	Dan	2,829
+BiQ Analyzer HT	BiQ Analyzer HT	Dan	612
+BiQ Analyzer	BiQ Analyzer	Dan	586
+BSMAP	BSMAP	Dan	1,600
+Batman	Batman	Dan	1,573
+BRAT	BRAT	Dan	1,329
+ERNE	ERNE	Cdf	832
+ATAC	ATAC	Dan	2,789
+OLego	OLego	Wuj	790
+RobiNA	RobiNA	Usad	1,352
+PoolHap	PoolHap	Quan.long	836
+SICER	SICER	Sinusoid	4,840
+GenomicTools	GenomicTools	Andreas.sjodin	754
+Sniper	Sniper	Andreas.sjodin	623
+Meraculous	Meraculous	Andreas.sjodin	1,613
+Golden Helix	Golden Helix	Andreas.sjodin	1,259
+PeakRanger	PeakRanger	Andreas.sjodin	710
+Segtor	Segtor	Andreas.sjodin	525
+RNA	RNA	Andreas.sjodin	769
+Swalign	Swalign	Andreas.sjodin	346
+SEAL	SEAL	Ilveroluca	985
+ConDeTri	ConDeTri	Lexa	784
+BarraCUDA	BarraCUDA	Brianlamx	1,059
+Hicup	Hicup	Simonandrews	604
+Biopython	Biopython	Maubp	2,534
+ChromHMM	ChromHMM	Jernst	925
+RiboPicker	RiboPicker	Robs	537
+Hairpin Annotation	Hairpin Annotation	SRNA	484
+MiRProf	MiRProf	SRNA	445
+Ta-si prediction	Ta-si prediction	SRNA	374
+MiRCat	MiRCat	SRNA	564
+Filter	Filter	SRNA	456
+SiLoCo	SiLoCo	SRNA	322
+Breakpointer	Breakpointer	Misolaska	799
+TagCleaner	TagCleaner	Dan	844
+PRINSEQ	PRINSEQ	Dan	1,969
+DeconSeq	DeconSeq	Dan	1,077
+MrFAST	MrFAST	Dan	2,415
+Krona	Krona	Dan	872
+Tview	Tview	Dan	595
+SimSeq	SimSeq	Dan	1,596
+SeqPrep	SeqPrep	Dan	4,970
+Scaffolder	Scaffolder	Dan	697
+SNVMix	SNVMix	Dan	1,643
+SAMtools	SAMtools	Dan	13,930
+MuMRescueLite	MuMRescueLite	Dan	1,061
+Freebayes	Freebayes	Dan	4,622
+BamTools	BamTools	Dan	6,900
+BWA	BWA	Dan	12,149
+USeq	USeq	Dan	1,422
+TiMat2	TiMat2	Dan	662
+STADEN	STADEN	Dan	3,625
+SeqAn	SeqAn	Dan	1,449
+MrsFAST	MrsFAST	Dan	2,048
+GenomeTools	GenomeTools	Dan	1,673
+ContEst	ContEst	Dan	587
+Atlas Suite	Atlas Suite	Dan	1,541
+SSA	SSA	Dan	558
+TMAP	TMAP	Marcowanger	3,329
+TMAP	TMAP	Marcowanger	3,329
+TAPyR	TAPyR	Dan	678
+Trimmomatic	Trimmomatic	Usad	4,312
+Cortex	Cortex	Zam	917
+GMAP	GMAP	Julian.gehring	1,670
+RNASEQR	RNASEQR	Marcowanger	774
+SHOREmap	SHOREmap	Krobison	1,357
+Sequencher	Sequencher	Krobison	1,347
+PerM	PerM	Krobison	1,013
+Nexalign	Nexalign	Krobison	1,678
+MIP Scaffolder	MIP Scaffolder	Krobison	832
+SHORTY	SHORTY	Krobison	978
+SCALCE	SCALCE	Calkan	538
+PoPoolation2	PoPoolation2	GoneSouth	445
+CummeRbund	CummeRbund	Marcowanger	827
+MAXIMUS	MAXIMUS	Marcowanger	500
+AREM	AREM	Dnewkirk	663
+S-MART	S-MART	Andreas.sjodin	856
+GENE-Counter	GENE-Counter	Andreas.sjodin	817
+MeV	MeV	Andreas.sjodin	1,296
+BaySeq	BaySeq	Andreas.sjodin	1,731
+PoissonSeq	PoissonSeq	Marcowanger	668
+Variation toolkit	Variation toolkit	Lindenb	774
+NOISeq	NOISeq	Marcowanger	1,424
+Knime4Bio	Knime4Bio	Lindenb	472
+ANCHOR	ANCHOR	Andreas.sjodin	865
+SGA	SGA	Andreas.sjodin	1,276
+PoPoolation	PoPoolation	GoneSouth	1,016
+Anno-J	Anno-J	Andreas.sjodin	774
+Pybedtools	Pybedtools	Daler	784
+Standardized Velvet Assembly Report	Standardized Velvet Assembly Report	Andreas.sjodin	569
+ShoRAH	ShoRAH	Andreas.sjodin	1,022
+AGILE	AGILE	Smisra	933
+DecGPU	DecGPU	Andreas.sjodin	610
+Exonerate	Exonerate	Andreas.sjodin	1,974
+Vmatch	Vmatch	Andreas.sjodin	950
+TagDust	TagDust	Andreas.sjodin	2,128
+BLAST	BLAST	Dan	908
+Arachne	Arachne	Dan	877
+PALMapper	PALMapper	Andreas.sjodin	1,562
+SNVer	SNVer	Andreas.sjodin	909
+FDM	FDM	Andreas.sjodin	649
+XMatchView	XMatchView	Andreas.sjodin	723
+Haplowser	Haplowser	Andreas.sjodin	980
+MU2A	MU2A	Andreas.sjodin	706
+RApiD	RApiD	Andreas.sjodin	634
+ProbHD	ProbHD	Andreas.sjodin	1,040
+Sole-Search	Sole-Search	Andreas.sjodin	735
+MiRNAkey	MiRNAkey	Andreas.sjodin	1,022
+SXOligoSearch	SXOligoSearch	Andreas.sjodin	764
+NPS	NPS	Andreas.sjodin	915
+CleaveLand	CleaveLand	Andreas.sjodin	999
+PERalign	PERalign	Andreas.sjodin	820
+SlideSort	SlideSort	Andreas.sjodin	648
+IBD2	IBD2	Andreas.sjodin	623
+Alta-Cyclic	Alta-Cyclic	Andreas.sjodin	1,165
+WHAM	WHAM	Andreas.sjodin	330
+ProbeMatch	ProbeMatch	Andreas.sjodin	853
+ZINBA	ZINBA	Andreas.sjodin	749
+SRAdb	SRAdb	Andreas.sjodin	841
+SimNext	SimNext	Andreas.sjodin	1,053
+IQSeq	IQSeq	Andreas.sjodin	825
+ShortRead	ShortRead	Usad	1,344
+FusionHunter	FusionHunter	Usad	1,071
+FragGeneScan	FragGeneScan	Usad	851
+DNAzip	DNAzip	Usad	1,296
+T-lex	T-lex	Usad	392
+EMBF	EMBF	Usad	887
+Gnumap	Gnumap	Andreas.sjodin	1,246
+QuEST	QuEST	Andreas.sjodin	1,233
+SEED	SEED	Andreas.sjodin	623
+FLASH	FLASH	Usad	898
+CNVnator	CNVnator	Dan	3,613
+MMSEQ	MMSEQ	Usad	1,539
+SSAKE	SSAKE	Usad	1,458
+CUDA-EC	CUDA-EC	Usad	800
+HawkEye	HawkEye	Usad	1,518
+Trans-ABySS	Trans-ABySS	Usad	2,773
+CloudAligner	CloudAligner	Usad	807
+PRICE	PRICE	Andreas.sjodin	794
+PECAN	PECAN	Andreas.sjodin	1,898
+ICORN	ICORN	Andreas.sjodin	744
+MapView	MapView	Andreas.sjodin	1,072
+MICSA	MICSA	Dan	737
+LookSeq	LookSeq	Dan	1,107
+SeqSeg	SeqSeg	Dan	1,445
+RefCov	RefCov	Andreas.sjodin	1,477
+BayesCall	BayesCall	Andreas.sjodin	1,166
+MoDIL	MoDIL	Andreas.sjodin	1,528
+ESTcalc	ESTcalc	Andreas.sjodin	906
+SUDS genome browser	SUDS genome browser	Andreas.sjodin	660
+Girafe	Girafe	Andreas.sjodin	645
+ZORRO	ZORRO	Andreas.sjodin	1,006
+ISSAKE	ISSAKE	Andreas.sjodin	1,364
+SESAME	SESAME	Andreas.sjodin	687
+Swift	Swift	Andreas.sjodin	796
+SeqWare	SeqWare	Andreas.sjodin	856
+SolexaTools	SolexaTools	Andreas.sjodin	1,012
+RAPSearch	RAPSearch	Andreas.sjodin	769
+SSPACE	SSPACE	Colindaven	3,217
+VarScan	VarScan	Andreas.sjodin	1,456
+VelvetOptimiser	VelvetOptimiser	Andreas.sjodin	1,190
+FindPeaks 3.1	FindPeaks 3.1	Andreas.sjodin	2,128
+SWT	SWT	Andreas.sjodin	1,166
+Readaligner	Readaligner	Andreas.sjodin	580
+HiTEC	HiTEC	Andreas.sjodin	769
+SeqCons	SeqCons	Andreas.sjodin	1,057
+SHREC	SHREC	Andreas.sjodin	1,040
+Jellyfish	Jellyfish	Andreas.sjodin	935
+HI	HI	Andreas.sjodin	1,055
+ABBA	ABBA	Mmartin	1,644
+Figaro	Figaro	Mmartin	1,461
+Figaro	Figaro	Mmartin	1,461
+MicroRazerS	MicroRazerS	Andreas.sjodin	702
+BEADS	BEADS	Krobison	460
+ExomeCNV	ExomeCNV	Krobison	1,713
+ChimeraScan	ChimeraScan	Krobison	598
+BBSeq	BBSeq	Krobison	879
+MAQGene	MAQGene	Krobison	1,580
+AMOS	AMOS	Krobison	2,624
+Tracembler	Tracembler	Krobison	713
+Integrated Genome Browser	Integrated Genome Browser	Krobison	1,419
+SHE-RA	SHE-RA	Krobison	454
+GeeFu	GeeFu	Krobison	653
+Sff2fastq	Sff2fastq	Krobison	3,399
+KNIME	KNIME	Andreas.sjodin	642
+MOM	MOM	Andreas.sjodin	833
+Agp2amos	Agp2amos	Marcowanger	758
+CatchAll	CatchAll	Andreas.sjodin	727
+ABMapper	ABMapper	Marcowanger	1,494
+Trinity	Trinity	Andreas.sjodin	1,659
+SolexaQA	SolexaQA	Andreas.sjodin	1,708
+MAQ	MAQ	Mmartin	4,386
+AB Large Indel Tool	AB Large Indel Tool	Marcowanger	1,980
+AB Small Indel Tool	AB Small Indel Tool	Marcowanger	1,561
+Mapsembler	Mapsembler	Rayanc	1,090
+SOAPsnp	SOAPsnp	Dan	3,503
+SOPRA	SOPRA	Usad	1,395
+Bambus	Bambus	Usad	992
+Suffixerator	Suffixerator	Andreas.sjodin	1,023
+SeqWords	SeqWords	Andreas.sjodin	897
+Ray	Ray	Andreas.sjodin	1,555
+Tallymer	Tallymer	Andreas.sjodin	1,302
+SR-ASM	SR-ASM	Andreas.sjodin	1,201
+FastQValidator	FastQValidator	Andreas.sjodin	641
+Clean reads	Clean reads	Andreas.sjodin	1,180
+NextGENe	NextGENe	Andreas.sjodin	2,143
+MagicViewer	MagicViewer	Andreas.sjodin	2,402
+Geoseq	Geoseq	Andreas.sjodin	938
+PacBio conversion tools	PacBio conversion tools	Andreas.sjodin	961
+CGA Tools	CGA Tools	Andreas.sjodin	959
+CANGS	CANGS	Andreas.sjodin	1,391
+Quake	Quake	Andreas.sjodin	1,021
+Hybrid-SHREC	Hybrid-SHREC	Andreas.sjodin	733
+CORAL (Contig Ordering Algorithm)	CORAL (Contig Ordering Algorithm)	Andreas.sjodin	606
+Coral	Coral	Andreas.sjodin	834
+FlowSim	FlowSim	Andreas.sjodin	672
+Btrim	Btrim	Andreas.sjodin	937
+Nesoni	Nesoni	Andreas.sjodin	2,292
+KARMA	KARMA	Andreas.sjodin	980
+Segemehl	Segemehl	Andreas.sjodin	2,118
+G-Mo.R-Seq	G-Mo.R-Seq	Andreas.sjodin	1,370
+MPscan	MPscan	Andreas.sjodin	669
+SplicingViewer	SplicingViewer	Andreas.sjodin	1,401
+VCAKE	VCAKE	Andreas.sjodin	1,609
+TASR	TASR	Andreas.sjodin	483
+SuccinctAssembly	SuccinctAssembly	Andreas.sjodin	509
+QSRA	QSRA	Andreas.sjodin	1,090
+PE-Assembler	PE-Assembler	Andreas.sjodin	1,107
+LOCAS	LOCAS	Andreas.sjodin	911
+IDBA	IDBA	Andreas.sjodin	4,631
+Forge	Forge	Andreas.sjodin	1,468
+Contrail	Contrail	Andreas.sjodin	1,386
+CABOG	CABOG	Andreas.sjodin	6,674
+ALLPATHS	ALLPATHS	Andreas.sjodin	2,937
+MOSAIK	MOSAIK	Andreas.sjodin	3,140
+SOAPdenovo	SOAPdenovo	Andreas.sjodin	7,946
+ReadDepth	ReadDepth	Andreas.sjodin	1,248
+VCFtools	VCFtools	Andreas.sjodin	1,005
+REAL	REAL	Andreas.sjodin	537
+SAMMate	SAMMate	Andreas.sjodin	2,399
+SAMStat	SAMStat	Andreas.sjodin	1,727
+GAMES	GAMES	Andreas.sjodin	1,944
+MIRA	MIRA	Andreas.sjodin	7,995
+Ngs backbone	Ngs backbone	Andreas.sjodin	2,564
+SOAP	SOAP	Andreas.sjodin	2,779
+Sissrs	Sissrs	Andreas.sjodin	2,260
+EagleView genome viewer	EagleView genome viewer	Dan	1,117
+EDENA	EDENA	Dan	1,285
+Reconciliator	Reconciliator	Dan	988
+SHARCGS	SHARCGS	Dan	983
+RSEQtools	RSEQtools	Andreas.sjodin	1,200
+Savant Genome Browser	Savant Genome Browser	Andreas.sjodin	2,048
+FindPeaks 4.0 (Vancouver Short Read Package)	FindPeaks 4.0 (Vancouver Short Read Package)	Andreas.sjodin	3,368
+FastQC	FastQC	Andreas.sjodin	13,549
+Goseq	Goseq	Andreas.sjodin	3,364
+BamView	BamView	Andreas.sjodin	1,891
+PileLine	PileLine	Krobison	666
+Phred	Phred	Dan	5,080
+PASS	PASS	Dan	1,380
+EULER	EULER	Usad	2,021
+GigaBayes	GigaBayes	Usad	1,881
+Goby framework	Goby framework	Dan	1,432
+SHRAP	SHRAP	Dan	890
+DiBayes	DiBayes	Dan	2,009
+UGENE	UGENE	Mmartin	1,767
+RECOUNT	RECOUNT	Mmartin	1,167
+BEDTools	BEDTools	Mmartin	4,790
+SpliceTrap	SpliceTrap	Mmartin	871
+ChIPseqR	ChIPseqR	Mmartin	622
+SRMA	SRMA	Mmartin	1,280
+Flower	Flower	Mmartin	705
+FAAST	FAAST	Mmartin	536
+DrFAST	DrFAST	Mmartin	533
+R453Plus1Toolbox	R453Plus1Toolbox	ForeignMan	804
+TopHat-Fusion	TopHat-Fusion	Krobison	864
+DeFuse	DeFuse	Krobison	1,981
+ShortFuse	ShortFuse	Krobison	630
+MapSplice	MapSplice	Krobison	1,595
+ArrayExpressHTS	ArrayExpressHTS	Krobison	1,272
+PyroNoise	PyroNoise	Krobison	2,465
+Barcode generator	Barcode generator	Krobison	1,109
+IsoEM	IsoEM	Krobison	598
+IGV	IGV	Jim Robinson	3,070
+BayesPeak	BayesPeak	Jmc200	1,726
+SeqMonk	SeqMonk	Simonandrews	7,948
+Inchworm	Inchworm	Krobison	623
+JointSLM	JointSLM	Krobison	1,292
+Variant Effect Predictor	Variant Effect Predictor	Krobison	1,209
+VIP	VIP	Krobison	1,070
+CRISP	CRISP	Krobison	1,162
+Bambino	Bambino	Krobison	1,302
+MAYDAY	MAYDAY	Krobison	671
+MARGARITA	MARGARITA	Krobison	953
+DSRC	DSRC	Krobison	595
+E-miR	E-miR	Krobison	835
+Mzip	Mzip	Krobison	595
+Reptile	Reptile	Krobison	1,026
+MTR	MTR	Krobison	449
+ASC	ASC	Krobison	1,053
+Isas	Isas	Krobison	469
+R2R	R2R	Krobison	573
+MirTools	MirTools	Mgogol	1,767
+InGAP	InGAP	Krobison	1,246
+Galign	Galign	Krobison	985
+QCALL	QCALL	Krobison	1,413
+SNIP-Seq	SNIP-Seq	Krobison	701
+SmashCommunity	SmashCommunity	Krobison	573
+Microsoft Biology Foundation	Microsoft Biology Foundation	Krobison	630
+GATK	GATK	Krobison	9,575
+Dindel	Dindel	Krobison	2,580
+CoNAn-SNV	CoNAn-SNV	Krobison	754
+BRCA-diagnostic	BRCA-diagnostic	Krobison	595
+Alcovna	Alcovna	Krobison	1,087
+Myrna	Myrna	Krobison	1,153
+SeqEM	SeqEM	Krobison	812
+Ibis	Ibis	Mmartin	2,686
+PIQA	PIQA	Mmartin	1,175
+GEM library	GEM library	Krobison	1,273
+Partek Genomics Suite	Partek Genomics Suite	Krobison	1,633
+Gambit	Gambit	Krobison	1,216
+SplitSeek	SplitSeek	Krobison	1,031
+ERDS	ERDS	Krobison	1,150
+RNA-MATE	RNA-MATE	Mmartin	1,457
+SpliceMap	SpliceMap	Mmartin	1,580
+VariantClassifier	VariantClassifier	Krobison	482
+GASSST	GASSST	Krobison	1,051
+GPSeq	GPSeq	Krobison	1,163
+ALEXA-Seq	ALEXA-Seq	Krobison	1,712
+Solas	Solas	Krobison	1,043
+Proxygenes	Proxygenes	Dan	1,195
+Phymm	Phymm	Dan	1,057
+BING	BING	Krobison	1,407
+SEWAL	SEWAL	Krobison	581
+SeqTrim	SeqTrim	Mmclella	1,450
+MapNext	MapNext	Krobison	1,995
+FrameDP	FrameDP	Krobison	1,157
+Crossbow	Crossbow	Dan	1,775
+Crossbow	Crossbow	Dan	1,775
+CNVseq	CNVseq	Krobison	3,456
+ClustDB	ClustDB	Dan	1,135
+Epigenome	Epigenome	Dan	1,129
+PyroBayes	PyroBayes	Dan	1,840
+Blixem	Blixem	Krobison	1,439
+PanGEA	PanGEA	Krobison	1,038
+PALMA	PALMA	Krobison	1,075
+FreClu	FreClu	Krobison	945
+Qpalma	Qpalma	Krobison	2,079
+RSEM	RSEM	Krobison	5,134
+Scripture	Scripture	Krobison	1,625
+Supersplat	Supersplat	Krobison	1,110
+TASE	TASE	Krobison	612
+UnoSeq	UnoSeq	Krobison	774
+CPTRA	CPTRA	Krobison	1,324
+CPTRA	CPTRA	Krobison	1,324
+DEGseq	DEGseq	Krobison	2,026
+HMMSplicer	HMMSplicer	Krobison	1,396
+Est2assembly	Est2assembly	Krobison	1,074
+PICS	PICS	Krobison	640
+Phred Phrap Consed Cross match	Phred Phrap Consed Cross match	Krobison	2,023
+Myrialign	Myrialign	Krobison	974
+GenomeMapper	GenomeMapper	Krobison	1,528
+ELAND	ELAND	Krobison	2,440
+G-SQZ	G-SQZ	Krobison	1,510
+MiRDeep	MiRDeep	Krobison	3,208
+Optimus Primer	Optimus Primer	Krobison	1,199
+HPeak	HPeak	Krobison	684
+YASS	YASS	Dan	597
+PatMaN	PatMaN	Dan	782
+SHRiMP	SHRiMP	Dan	1,959
+Rsolid	Rsolid	Dan	848
+Fuzzypath	Fuzzypath	Dan	1,335
+Flux	Flux	Micha	1,409
+SsahaSNP	SsahaSNP	Mmartin	1,721
+Slider	Slider	Mmartin	945
+CnD	CnD	Mmartin	1,447
+LASTZ	LASTZ	Mmartin	1,713
+SNP-o-matic	SNP-o-matic	Mmartin	1,667
+SeqMap	SeqMap	Mmartin	1,475
+PolyBayesShort	PolyBayesShort	Mmartin	1,024
+MACS	MACS	Taoliu	2,470
+CASHX	CASHX	Hepcat72	1,626
+HTSeq	HTSeq	Simon Anders	3,612
+MuSICA 2	MuSICA 2	Krobison	633
+Curtain	Curtain	Jvhaarst	14,595
+SequenceVariantAnalyzer	SequenceVariantAnalyzer	Dongliang Ge	3,640
+Barcrawl Bartab	Barcrawl Bartab	Dan	1,321
+BOAT	BOAT	Krobison	1,038
+BS-Seq	BS-Seq	Krobison	1,654
+NextGen Utility Scripts	NextGen Utility Scripts	Btiwari	941
+EagleView	EagleView	Dan	1,080
+BEAP	BEAP	Dan	875
+PeakSeq	PeakSeq	Krobison	2,051
+Taipan	Taipan	Krobison	981
+SWAP454	SWAP454	Dan	847
+NGSView	NGSView	Krobison	1,038
+PyroMap	PyroMap	Andreas.sjodin	758
+SCARF	SCARF	Andreas.sjodin	870
+Rolexa	Rolexa	Krobison	774
+Belvu	Belvu	Dan	1,296

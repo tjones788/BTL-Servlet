@@ -1,0 +1,1 @@
+{"author": "","hits": "1670","cited": "134","refs": "1","label": "GMAP",			"summary": ["GMAP (Genomic Mapping and Alignment Program) for mRNA and EST Sequences."],			"meth_tags": ["Alignment","Mapping"],			"language": ["C","Bourne shell"],			"os": ["UNIX"]		}

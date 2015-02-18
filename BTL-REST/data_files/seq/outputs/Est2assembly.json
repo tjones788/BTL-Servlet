@@ -1,0 +1,1 @@
+{"author": "","hits": "1074","cited": "0","refs": "0","label": "Est2assembly",			"summary": ["Processes raw sequence data from Sanger or 454 sequencing into a hybrid de-novo assembly, annotates it and produces GMOD compatible output, including a SeqFeature database suitable for GBrowse."],			"bio_tags": ["RNA-Seq Alignment","Genomics"],			"meth_tags": ["Assembly"]		}

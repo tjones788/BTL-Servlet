@@ -1,0 +1,1 @@
+{"author": "","hits": "1107","cited": "7","refs": "1","label": "PE-Assembler",			"summary": ["A simple 3' extension approach to assembling paired-end reads and capable of parallelization"],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Scaffolding"],			"language": ["C++"]		}

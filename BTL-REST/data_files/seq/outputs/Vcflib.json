@@ -1,0 +1,1 @@
+{"author": "","hits": "161","cited": "0","refs": "0","label": "Vcflib",			"summary": ["API and command line utilities for the manipulation of VCF files."],			"bio_tags": ["Genomics"],			"language": ["C++"],			"licence": ["MIT"]		}

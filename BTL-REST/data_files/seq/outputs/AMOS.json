@@ -1,0 +1,1 @@
+{"author": "","hits": "2624","cited": "64","refs": "1","label": "AMOS",			"summary": ["AMOS is a Modular, Open-Source whole genome assembler."],			"meth_tags": ["Assembly","Assembly validation","Assembly visualization","Format conversion","Integrated Solution"],			"language": ["C","Perl"],			"os": ["Linux"]		}

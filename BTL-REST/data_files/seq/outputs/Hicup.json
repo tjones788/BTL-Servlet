@@ -1,0 +1,1 @@
+{"author": "","hits": "604","cited": "0","refs": "0","label": "Hicup",			"summary": ["A mapping pipeline for HiC interaction data. Performs independent mapping on each end of the interaction pair and removes commonly found artefacts."],			"bio_tags": ["Epigenomics"],			"meth_tags": ["Mapping"],			"language": ["Perl"],			"licence": ["GPLv3"],			"os": ["UNIX","Linux","Mac OS X"]		}

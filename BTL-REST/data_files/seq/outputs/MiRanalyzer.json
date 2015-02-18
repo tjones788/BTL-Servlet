@@ -1,0 +1,1 @@
+{"author": "","hits": "2139","cited": "59","refs": "2","label": "MiRanalyzer",			"summary": ["Web-server for identifying and analyzing miRNA in next-gen sequencing experiments"],			"bio_tags": ["MiRNA"],			"features": ["Annotation of micro RNA","differential expression"],			"language": ["Java","Perl"],			"os": ["browser based"]		}

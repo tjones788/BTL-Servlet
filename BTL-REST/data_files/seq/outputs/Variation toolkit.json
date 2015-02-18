@@ -1,0 +1,1 @@
+{"author": "","hits": "774","cited": "0","refs": "0","label": "Variation toolkit",			"summary": ["A set of C++ tools for the interpretation of VCF data."],			"bio_tags": ["Genomics","Exome and whole genome variant detection","SNP Annotation"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

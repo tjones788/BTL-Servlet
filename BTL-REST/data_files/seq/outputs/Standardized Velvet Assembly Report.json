@@ -1,0 +1,1 @@
+{"author": "","hits": "569","cited": "0","refs": "0","label": "Standardized Velvet Assembly Report",			"summary": ["A set of scripts and a Sweave report used to iterate through parameters and generate a report on Velvet-generated sequence assemblies"],			"bio_tags": ["Quality Control"],			"meth_tags": ["Visualization"],			"language": ["R","Perl"],			"licence": ["GPLv3"]		}

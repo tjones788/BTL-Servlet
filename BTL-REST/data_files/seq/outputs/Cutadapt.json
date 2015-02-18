@@ -1,0 +1,1 @@
+{"author": "","hits": "1728","cited": "0","refs": "0","label": "Cutadapt",			"summary": ["remove adapter sequences from high-throughput sequencing data using alignment"],			"language": ["Python","Cython"],			"licence": ["MIT"]		}

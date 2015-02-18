@@ -1,0 +1,1 @@
+{"author": "","hits": "678","cited": "1","refs": "1","label": "TAPyR",			"summary": ["Efficient BWT-based read aligner supporting multiple sequencing platforms"],			"bio_tags": ["Whole Genome Resequencing"],			"meth_tags": ["Read mapping"],			"language": ["C"],			"licence": ["GPL"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "623","cited": "0","refs": "0","label": "Inchworm",			"summary": ["Employs the Kmer graph method to reconstruct (in many cases full-length) transcripts from Illumina RNA-Seq (preferrably strand-specific) reads."],			"bio_tags": ["RNA-Seq","De novo transcriptome assembly"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "1494","cited": "3","refs": "2","label": "ABMapper",			"summary": ["Maps RNA-Seq reads to target genome considering possible multiple mapping locations and splice junctions"],			"bio_tags": ["Genomics","Transcriptomics"],			"meth_tags": ["Mapping","Alignment"],			"language": ["C++","Perl"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

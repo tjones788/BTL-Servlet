@@ -1,0 +1,1 @@
+{"author": "","hits": "2260","cited": "173","refs": "1","label": "Sissrs",			"summary": ["Produce a list of peakmaxima from aligned positions."],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Peak calling"],			"language": ["Perl"],			"os": ["Linux","UNIX"]		}

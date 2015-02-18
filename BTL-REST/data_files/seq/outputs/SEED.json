@@ -1,0 +1,1 @@
+{"author": "","hits": "623","cited": "6","refs": "1","label": "SEED",			"summary": ["Tool to cluster sequence reads prior to assembly or other operations."],			"bio_tags": ["Metagenomics"],			"meth_tags": ["Clustering"],			"language": ["C++"],			"os": ["Mac OS X","Linux","Windows"]		}

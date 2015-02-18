@@ -1,0 +1,1 @@
+{"author": "","hits": "1084","cited": "12","refs": "1","label": "CARPET",			"summary": ["A web\u2010based package for the analysis of ChIP\u2010chip and expression tiling data"],			"bio_tags": ["ChIP-on-chip"],			"meth_tags": ["Tilling"],			"language": ["C++"]		}

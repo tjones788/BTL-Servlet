@@ -1,0 +1,1 @@
+{"author": "","hits": "769","cited": "0","refs": "0","label": "RNA",			"summary": ["A randomized Numerical Aligner for Accurate alignment of NGS reads"],			"bio_tags": ["Read alignment"],			"meth_tags": ["Mapping","Hash Table Based"],			"features": ["Fast","Accurate"],			"language": ["C++"],			"licence": ["GPL v3"],			"os": ["Linux","UNIX","Windows","Mac OS X"]		}

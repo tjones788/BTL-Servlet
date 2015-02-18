@@ -1,0 +1,1 @@
+{"author": "","hits": "985","cited": "3","refs": "1","label": "SEAL",			"summary": ["Read mapper and duplicate remover."],			"meth_tags": ["Mapping","Hadoop"],			"language": ["Python","C++","Java"],			"licence": ["GPLv3"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "832","cited": "0","refs": "0","label": "MIP Scaffolder",			"summary": ["MIP Scaffolder is a program for scaffolding contigs produced by\nfragment assemblers using mate pair data."],			"meth_tags": ["Scaffolding"],			"language": ["C++","Perl"],			"os": ["Linux"]		}

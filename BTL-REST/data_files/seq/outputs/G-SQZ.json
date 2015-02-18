@@ -1,0 +1,1 @@
+{"author": "","hits": "1510","cited": "9","refs": "1","label": "G-SQZ",			"summary": ["Huffman coding-based sequencing-reads specific representation scheme that compresses data without altering the relative order."],			"meth_tags": ["Read storage","Data compression"],			"language": ["C++"]		}

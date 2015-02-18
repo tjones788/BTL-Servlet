@@ -1,0 +1,1 @@
+{"author": "","hits": "6365","cited": "218","refs": "1","label": "BWA-SW",			"summary": ["Fast, accurate, memory-efficient aligner for long sequencing reads"],			"bio_tags": ["Mapping","Read alignment"],			"meth_tags": ["FM-Index"],			"features": ["Gapped alignment","Local alignment"],			"language": ["C"],			"licence": ["GPLv3","MIT"],			"os": ["UNIX"]		}

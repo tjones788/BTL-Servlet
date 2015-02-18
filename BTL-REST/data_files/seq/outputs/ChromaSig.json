@@ -1,0 +1,1 @@
+{"author": "","hits": "1113","cited": "44","refs": "1","label": "ChromaSig",			"summary": ["An unsupervised learning method, which finds, in an unbiased fashion, commonly occurring chromatin signatures in both tiling microarray and sequencing data."],			"bio_tags": ["ChIP-on-chip"],			"meth_tags": ["Chromatin motif finding"],			"language": ["Perl","C"]		}

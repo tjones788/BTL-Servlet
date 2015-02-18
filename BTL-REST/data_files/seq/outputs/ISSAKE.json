@@ -1,0 +1,1 @@
+{"author": "","hits": "1364","cited": "6","refs": "1","label": "ISSAKE",			"summary": ["Short Sequence Assembly by K-mer search and 3' read Extension, Immunology version (iSSAKE)"],			"bio_tags": ["Metagenomics"],			"meth_tags": ["Assembly"],			"language": ["Perl","Python"],			"licence": ["GPLv2"]		}

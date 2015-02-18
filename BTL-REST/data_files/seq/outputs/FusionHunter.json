@@ -1,0 +1,1 @@
+{"author": "","hits": "1071","cited": "0","refs": "0","label": "FusionHunter",			"summary": ["Identifies gene fusions in RNA-Seq data"],			"bio_tags": ["RNA-Seq","Fusion transcripts"],			"language": ["Perl","C"],			"os": ["Linux","Linux 64"]		}

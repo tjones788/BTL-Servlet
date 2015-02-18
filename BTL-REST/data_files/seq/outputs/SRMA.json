@@ -1,0 +1,1 @@
+{"author": "","hits": "1280","cited": "12","refs": "1","label": "SRMA",			"summary": ["SRMA is a short read micro re-aligner for next-generation high throughput sequencing data."],			"bio_tags": ["SNP discovery","InDel discovery"],			"meth_tags": ["Localized reassembly\/realignment"],			"language": ["Java","C"],			"licence": ["GPL"]		}

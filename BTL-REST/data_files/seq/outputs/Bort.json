@@ -1,0 +1,1 @@
+{"author": "","hits": "542","cited": "0","refs": "1","label": "Bort",			"summary": ["Bort parses Blast output and quantifies hits by contig and read counts."],			"bio_tags": ["RNA-Seq Quantitation"],			"language": ["Perl"],			"os": ["any"]		}

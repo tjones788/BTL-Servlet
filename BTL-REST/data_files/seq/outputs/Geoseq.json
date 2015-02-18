@@ -1,0 +1,1 @@
+{"author": "","hits": "938","cited": "1","refs": "1","label": "Geoseq",			"summary": ["Instead of mapping the reads to reference genomes or sequences, Geoseq maps a reference sequence against the sequencing data. It is web-based, and holds pre-computed data from public libraries."],			"bio_tags": ["Resequencing"],			"meth_tags": ["Mapping"]		}

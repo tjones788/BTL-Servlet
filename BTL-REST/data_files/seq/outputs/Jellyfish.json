@@ -1,0 +1,1 @@
+{"author": "","hits": "935","cited": "12","refs": "1","label": "Jellyfish",			"summary": ["Fast, memory-efficient k-mer counting algorithm"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux 64","Mac OS X"]		}

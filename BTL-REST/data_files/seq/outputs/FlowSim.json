@@ -1,0 +1,1 @@
+{"author": "","hits": "672","cited": "9","refs": "1","label": "FlowSim",			"summary": ["Tool for simulating errors in 454 sequencing data"],			"meth_tags": ["Error correction","Simulation"],			"language": ["Haskell"]		}

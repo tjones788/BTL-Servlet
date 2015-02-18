@@ -1,0 +1,430 @@
+[
+  {
+    "name": "Yeast",
+    "parent": [
+      "topics"
+    ],
+    "uri": "http://edamontology.org/topic_2817"
+  },
+  {
+    "name": "Worms",
+    "parent": [
+      "topics"
+    ],
+    "uri": "http://edamontology.org/topic_0215"
+  },
+  {
+    "name": "Flies",
+    "parent": [
+      "topics"
+    ],
+    "uri": "http://edamontology.org/topic_0211"
+  },
+  {
+    "name": "Sequence assembly evaluation",
+    "parent": [
+      "edam",
+      "operations",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/operation_3180"
+  },
+  {
+    "name": "Sequence alignment refinement",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "operations"
+    ],
+    "uri": "http://edamontology.org/operation_2089"
+  },
+  {
+    "name": "DNA vaccine prediction and optimisation",
+    "parent": [
+      "operations",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/operation_0560"
+  },
+  {
+    "name": "Peptide immunogen prediction and optimisation",
+    "parent": [
+      "edam",
+      "operations",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/operation_0559"
+  },
+  {
+    "name": "Structured RNA prediction and optimisation",
+    "parent": [
+      "bioinformatics",
+      "operations",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/operation_0483"
+  },
+  {
+    "name": "Zinc finger protein domain prediction and optimisation",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "operations"
+    ],
+    "uri": "http://edamontology.org/operation_0333"
+  },
+  {
+    "name": "Protein model refinement",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "operations"
+    ],
+    "uri": "http://edamontology.org/operation_0322"
+  },
+  {
+    "name": "Microarray probe design",
+    "parent": [
+      "edam",
+      "operations",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/operation_0309"
+  },
+  {
+    "name": "Physical mapping",
+    "parent": [
+      "bioinformatics",
+      "operations",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/operation_2944"
+  },
+  {
+    "name": "Genetic mapping",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "operations"
+    ],
+    "uri": "http://edamontology.org/operation_0282"
+  },
+  {
+    "name": "Phylipnon",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "formats"
+    ],
+    "uri": "http://edamontology.org/format_1998"
+  },
+  {
+    "name": "Phylip format",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "formats"
+    ],
+    "uri": "http://edamontology.org/format_1997"
+  },
+  {
+    "name": "Parameter",
+    "parent": [
+      "data",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_2527"
+  },
+  {
+    "name": "has input",
+    "parent": [
+      "relations",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/has_input"
+  },
+  {
+    "name": "is input of",
+    "parent": [
+      "bioinformatics",
+      "relations",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/is_input_of"
+  },
+  {
+    "name": "is format of",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "relations"
+    ],
+    "uri": "http://edamontology.org/is_format_of"
+  },
+  {
+    "name": "is output of",
+    "parent": [
+      "relations",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/is_output_of"
+  },
+  {
+    "name": "Database entry",
+    "parent": [
+      "edam",
+      "data",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_0843"
+  },
+  {
+    "name": "has output",
+    "parent": [
+      "relations",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/has_output"
+  },
+  {
+    "name": "Core data",
+    "parent": [
+      "bioinformatics",
+      "data",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_3031"
+  },
+  {
+    "name": "has format",
+    "parent": [
+      "edam",
+      "relations",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/has_format"
+  },
+  {
+    "name": "Identifier",
+    "parent": [
+      "identifiers",
+      "bioinformatics",
+      "edam",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_0842"
+  },
+  {
+    "name": "has identifier",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "relations"
+    ],
+    "uri": "http://edamontology.org/has_identifier"
+  },
+  {
+    "name": "is identifier of",
+    "parent": [
+      "relations",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/is_identifier_of"
+  },
+  {
+    "name": "Report",
+    "parent": [
+      "edam",
+      "data",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_2048"
+  },
+  {
+    "name": "Secondary structure alignment metadata",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_2598"
+  },
+  {
+    "name": "Alignment data",
+    "parent": [
+      "data",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_2539"
+  },
+  {
+    "name": "Structure alignment report",
+    "parent": [
+      "data",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_0887"
+  },
+  {
+    "name": "Secondary structure alignment metadata (RNA)",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_0882"
+  },
+  {
+    "name": "Secondary structure alignment metadata (protein)",
+    "parent": [
+      "bioinformatics",
+      "data",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_0879"
+  },
+  {
+    "name": "Sequence alignment report",
+    "parent": [
+      "data",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_0867"
+  },
+  {
+    "name": "Pairwise structure alignment construction (global)",
+    "parent": [
+      "operations",
+      "edam",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/operation_0508"
+  },
+  {
+    "name": "Pairwise structure alignment construction (local)",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "operations"
+    ],
+    "uri": "http://edamontology.org/operation_0507"
+  },
+  {
+    "name": "SCOP node",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_1554"
+  },
+  {
+    "name": "CATH node",
+    "parent": [
+      "data",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_1553"
+  },
+  {
+    "name": "Sequence record full (protein)",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_2888"
+  },
+  {
+    "name": "Sequence record lite (protein)",
+    "parent": [
+      "bioinformatics",
+      "data",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_2047"
+  },
+  {
+    "name": "GenBank-HTML",
+    "parent": [
+      "edam",
+      "formats",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/format_2532"
+  },
+  {
+    "name": "GenBank-like format (text)",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "formats"
+    ],
+    "uri": "http://edamontology.org/format_2205"
+  },
+  {
+    "name": "Cell line name",
+    "parent": [
+      "edam",
+      "identifiers",
+      "bioinformatics",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_2316"
+  },
+  {
+    "name": "Sequence features (compositionally-biased regions)",
+    "parent": [
+      "bioinformatics",
+      "data",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_3119"
+  },
+  {
+    "name": "Nucleic acid sequence composition",
+    "parent": [
+      "edam",
+      "bioinformatics",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_3086"
+  },
+  {
+    "name": "Protein sequence composition",
+    "parent": [
+      "bioinformatics",
+      "edam",
+      "data"
+    ],
+    "uri": "http://edamontology.org/data_3085"
+  },
+  {
+    "name": "Sequence composition plot",
+    "parent": [
+      "data",
+      "bioinformatics",
+      "edam"
+    ],
+    "uri": "http://edamontology.org/data_2166"
+  },
+  {
+    "name": "Sequence composition table",
+    "parent": [
+      "edam",
+      "data",
+      "bioinformatics"
+    ],
+    "uri": "http://edamontology.org/data_1264"
+  }
+]

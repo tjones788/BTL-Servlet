@@ -1,0 +1,1 @@
+{"author": "","hits": "836","cited": "1","refs": "1","label": "PoolHap",			"summary": ["Computational tool for inferring haplotype frequencies from pooled samples when haplotypes are known. In future version, haplotype unknown analysis will be supported."],			"meth_tags": ["Mapping","Regression."]		}

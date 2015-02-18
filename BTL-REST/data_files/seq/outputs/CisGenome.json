@@ -1,0 +1,1 @@
+{"author": "","hits": "2548","cited": "220","refs": "1","label": "CisGenome",			"summary": ["An integrated tool for tiling array, ChIP-seq, genome and cis-regulatory element analysis"],			"bio_tags": ["ChIP-Seq","ChIP-on-chip","Motif analysis","Gene annotation retrieval"],			"meth_tags": ["Gibbs motif sample"],			"language": ["C","C++"],			"os": ["UNIX","Windows"]		}

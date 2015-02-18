@@ -1,0 +1,1 @@
+{"author": "200","hits": "1726","cited": "31","refs": "2","label": "BayesPeak",			"summary": ["A Bayesian hidden Markov model to detect enriched locations in ChIP-seq data."],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Hidden Markov Model","MCMC"],			"features": ["Multicore"],			"language": ["R"],			"licence": ["GPL"]		}

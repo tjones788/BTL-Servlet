@@ -1,0 +1,1 @@
+{"author": "","hits": "889","cited": "9","refs": "1","label": "SVMerge",			"summary": ["Pipeline for the detection of structural variants by integrating calls from multiple structural variant callers."],			"bio_tags": ["Structural variation"],			"language": ["Perl"]		}

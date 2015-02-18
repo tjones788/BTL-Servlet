@@ -1,0 +1,1 @@
+{"author": "","hits": "445","cited": "0","refs": "0","label": "MiRProf",			"summary": ["Determines normalised expression levels of sRNAs matching known miRNAs in miRBase."],			"bio_tags": ["General bioinformatics (pipeline)"],			"meth_tags": ["MiRNA profiling"],			"language": ["Java"],			"licence": ["Custom Licence"],			"os": ["Linux 64","Windows","Mac OS X"]		}

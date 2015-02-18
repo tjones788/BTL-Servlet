@@ -1,0 +1,1 @@
+{"author": "","hits": "1296","cited": "16","refs": "1","label": "DNAzip",			"summary": ["A series of techniques that in combination reduces a single genome to a size small enough to be sent as an email attachment."],			"meth_tags": ["Data compression"],			"language": ["C++"]		}

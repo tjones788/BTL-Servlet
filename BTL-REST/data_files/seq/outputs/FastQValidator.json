@@ -1,0 +1,1 @@
+{"author": "","hits": "641","cited": "0","refs": "0","label": "FastQValidator",			"summary": ["Checking that FastQ files are follows standards"],			"bio_tags": ["Quality Control"],			"meth_tags": ["Sequencing Quality Control"],			"language": ["C++"]		}

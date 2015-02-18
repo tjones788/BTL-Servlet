@@ -1,0 +1,1 @@
+{"author": "2","hits": "1144","cited": "45","refs": "1","label": "MISO",			"summary": ["An alternative to Cufflinks, MISO (Mixture-of-Isoforms) is a probabilistic framework that quantitates the expression level of alternatively spliced genes."],			"bio_tags": ["RNA-Seq Quantitation","RNA-Seq"],			"meth_tags": ["Alternative Splicing"]		}

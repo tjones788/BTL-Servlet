@@ -1,0 +1,1 @@
+{"author": "","hits": "1110","cited": "14","refs": "1","label": "Supersplat",			"summary": ["Using a genomic reference and RNA-seq high-throughput sequencing datasets, supersplat empirically identifies potential splice junctions at a rate of (~)11.4 million reads per hour."],			"bio_tags": ["RNA-Seq Alignment"],			"meth_tags": ["Assembly"],			"licence": ["C++"]		}

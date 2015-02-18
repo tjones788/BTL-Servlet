@@ -1,0 +1,1 @@
+{"author": "","hits": "1667","cited": "10","refs": "1","label": "SNP-o-matic",			"summary": ["SNP-o-matic is a fast, memory-efficient and stringent read mapping tool offering a variety of analytical output functions, with an emphasis on genotyping."],			"bio_tags": ["SNP discovery"],			"meth_tags": ["Mapping"],			"language": ["C++","C"]		}

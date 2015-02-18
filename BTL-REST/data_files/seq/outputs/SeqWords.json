@@ -1,0 +1,1 @@
+{"author": "","hits": "897","cited": "0","refs": "0","label": "SeqWords",			"summary": ["SeqWords is a featherweight object for the calculation of n-mer word occurrences in a single sequence."],			"meth_tags": ["K-mer analysis"],			"features": ["Part of BioPerl"],			"language": ["Perl"],			"licence": ["Perl artistic licence"]		}

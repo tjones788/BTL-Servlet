@@ -1,0 +1,8 @@
+<tool id="fa_gc_content_1" name="Compute GC content" version="1.0.0">
+  <description>for each sequence in a file</description>
+
+  <help>
+	This tool computes GC content from a FASTA file.
+  </help>
+
+</tool>

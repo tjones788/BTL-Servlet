@@ -1,0 +1,1 @@
+{"author": "","hits": "795","cited": "6","refs": "1","label": "ECHO",			"summary": ["Reference-free short read error correction from diploid genomes, with explicit modeling of heterozygous sites."],			"bio_tags": ["SNP discovery","InDel discovery"],			"meth_tags": ["Error correction"],			"language": ["Python","C++"],			"licence": ["BSD"]		}

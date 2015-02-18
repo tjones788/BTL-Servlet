@@ -1,0 +1,396 @@
+[
+    {
+        "roleName": "Applications",
+        "id": "role1",
+        "children": [
+            {
+                "roleName": "Analysis and Processing",
+                "id": "role11",
+                "collapsed": true,
+                "test": "2x",
+                "children": [
+                    {
+                        "roleName": "Alignment Processing",
+                        "id": "http://edamontology.org/operation_2951",
+                        "children": [
+                            {
+                                "roleName": "Test Tool 1",
+                                "id": "001",
+                                "isTool": true,
+                                "toolName": "Test Tool 1",
+                                "toolDescription": "Test tool 1 description",
+                                "imageUrl": "./images/wrench.jpg",
+								"similarTools": ["001", "002", "003", "004"],
+								"previousTools": ["003", "004", "005"],
+								"nextTools" : ["004", "005", "006"],
+                                "inputs": [
+                                    {
+                                        "inputId": "001",
+                                        "inputName": "Test Input 1",
+                                        "format": ".txt"
+                                    },
+                                    {
+                                        "inputId": "002",
+                                        "inputName": "Test Input 2",
+                                        "format": ".fasta"
+                                    },
+                                    {
+                                        "inputId": "003",
+                                        "inputName": "Test Input 3",
+                                        "format": ".fastq"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "outputName": "Test Output 1",
+                                        "format": ".fasta"
+                                    }
+                                ],
+                                "parameters": [
+                                    {
+                                        "name": "Output File Name",
+                                        "value": "outputFile1",
+                                        "type": "Bets",
+                                        "label": "label1",
+                                        "required": "no",
+                                        "default": "yes",
+                                        "validator": "validator",
+                                        "visible": "yes",
+                                        "description": "test description",
+                                        "constraint": [
+                                            {
+                                                "label": "Ontology",
+                                                "value": "x"
+                                            },
+                                            {
+                                                "label": "Ontology",
+                                                "value": "www.com.com"
+                                            }
+											
+                                        ]
+                                    },
+									{
+                                        "name": "Output Format",
+                                        "value": "clustal",
+                                        "type": "Bets",
+                                        "label": "label1",
+                                        "required": "no",
+                                        "default": "yes",
+                                        "validator": "validator",
+                                        "visible": "yes",
+                                        "description": "test description",
+                                        "constraint": [
+                                            {
+                                                "label": "Ontology",
+                                                "value": "x"
+                                            },
+                                            {
+                                                "label": "Ontology",
+                                                "value": "www.com.com"
+                                            }
+										]
+									}
+									
+                                ]
+                            },
+                            {
+                                "roleName": "File Processing",
+                                "id": "http://edamontology.org/operation_2409",
+                                "children": [
+                                    {
+                                        "roleName": "Test Tool 2",
+                                        "id": "002",
+                                        "isTool": true,
+                                        "toolName": "Test Tool 2",
+                                        "toolDescription": "Test tool 2 description",
+                                        "imageUrl": "../images/wrench.jpg",
+                                        "test": "4x",
+                                        "inputs": [
+                                            {
+                                                "inputId": "001",
+                                                "inputName": "Test Input 1",
+                                                "format": ".fasta"
+                                            },
+                                            {
+                                                "inputId": "002",
+                                                "inputName": "Test Input 2",
+                                                "format": ".fastq"
+                                            }
+                                        ],
+                                        "outputs": [
+                                            {
+                                                "outputName": "Test Output 2",
+                                                "format": ".fasta"
+                                            }
+                                        ],
+										"parameters": [
+                                    {
+                                        "name": "Output File Name",
+                                        "value": "outputFile2",
+                                        "type": "Bets",
+                                        "label": "label1",
+                                        "required": "no",
+                                        "default": "yes",
+                                        "validator": "validator",
+                                        "visible": "yes",
+                                        "description": "test description",
+                                        "constraint": [
+                                            {
+                                                "label": "Ontology",
+                                                "value": "x"
+                                            },
+                                            {
+                                                "label": "Ontology",
+                                                "value": "www.com.com"
+                                            }
+											
+                                        ]
+                                    },
+									{
+                                        "name": "Output Format",
+                                        "value": "clustal",
+                                        "type": "Bets",
+                                        "label": "label1",
+                                        "required": "no",
+                                        "default": "yes",
+                                        "validator": "validator",
+                                        "visible": "yes",
+                                        "description": "test description",
+                                        "constraint": [
+                                            {
+                                                "label": "Ontology",
+                                                "value": "x"
+                                            },
+                                            {
+                                                "label": "Ontology",
+                                                "value": "www.com.com"
+                                            }
+										]
+									}
+									
+                                ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "roleName": "Annotation",
+                        "id": "role12",
+                        "collapsed": true,
+                        "children": [
+                            {
+                                "roleName": "Gene expression profile annotation",
+                                "id": "role121",
+                                "children": [
+                                    {
+                                        "roleName": "Test Tool 2",
+                                        "id": "002",
+                                        "isTool": true,
+                                        "toolName": "Test Tool 2",
+                                        "toolDescription": "Test tool 2 description",
+                                        "imageUrl": "../images/wrench.jpg",
+                                        "test": "4x",
+                                        "inputs": [
+                                            {
+                                                "inputId": "001",
+                                                "inputName": "Test Input 1",
+                                                "format": ".fasta"
+                                            }
+                                        ],
+                                        "outputs": [
+                                            {
+                                                "outputName": "Test Output 2",
+                                                "format": ".fasta"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "roleName": "subApplication2-1-2",
+                                        "id": "role1212",
+                                        "children": [
+                                            {
+                                                "roleName": "subApplication2-1-2-1",
+                                                "id": "role1211",
+                                                "children": [
+                                                    {
+                                                        "roleName": "subApplication2-1-1",
+                                                        "id": "role1211",
+                                                        "children": [
+                                                            {
+                                                                "roleName": "Test Tool 2",
+                                                                "id": "002",
+                                                                "isTool": true,
+                                                                "toolName": "Test Tool 2",
+                                                                "toolDescription": "Test tool 2 description",
+                                                                "imageUrl": "../images/wrench.jpg",
+                                                                "test": "4x",
+                                                                "inputs": [
+                                                                    {
+                                                                        "inputId": "001",
+                                                                        "inputName": "Test Input 1",
+                                                                        "format": ".fasta"
+                                                                    },
+                                                                    {
+                                                                        "inputId": "002",
+                                                                        "inputName": "Test Input 2",
+                                                                        "format": ".fastq"
+                                                                    }
+                                                                ],
+                                                                "outputs": [
+                                                                    {
+                                                                        "outputName": "Test Output 2",
+                                                                        "format": ".fasta"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "roleName": "subApplication2-1-2-2",
+                                                "id": "role1211",
+                                                "children": [
+                                                    
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "roleName": "Domains",
+                "id": "role2",
+                "children": [
+                    {
+                        "roleName": "Biology",
+                        "id": "role11",
+                        "collapsed": true,
+                        "children": [
+                            {
+                                "roleName": "Test Tool 2",
+                                "id": "002",
+                                "isTool": true,
+                                "toolName": "Test Tool 2",
+                                "toolDescription": "Test tool 2 description",
+                                "imageUrl": "../images/wrench.jpg",
+                                "test": "4x",
+                                "inputs": [
+                                    {
+                                        "inputId": "001",
+                                        "inputName": "Test Input 1",
+                                        "format": ".fasta"
+                                    },
+                                    {
+                                        "inputId": "002",
+                                        "inputName": "Test Input 2",
+                                        "format": ".fastq"
+                                    }
+                                ],
+                                "outputs": [
+                                    {
+                                        "outputName": "Test Output 2",
+                                        "format": ".fasta"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "roleName": "Chemistry",
+                        "id": "role12",
+                        "children": [
+                            {
+                                "roleName": "Biochemsitry",
+                                "id": "role121",
+                                "children": [
+                                    {
+                                        "roleName": "subDomain2-1-1",
+                                        "id": "role1211",
+                                        "children": [
+                                            
+                                        ]
+                                    },
+                                    {
+                                        "roleName": "subDomain2-1-2",
+                                        "id": "role1212",
+                                        "children": [
+                                            
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "roleName": "Methods",
+                "id": "role3",
+                "children": [
+                    {
+                        "roleName": "subGuest1",
+                        "id": "role11",
+                        "children": [
+                            
+                        ]
+                    },
+                    {
+                        "roleName": "subGuest2",
+                        "id": "role12",
+                        "collapsed": true,
+                        "children": [
+                            {
+                                "roleName": "subGuest2-1",
+                                "id": "role121",
+                                "children": [
+                                    {
+                                        "roleName": "Test Tool 1",
+                                        "id": "001",
+                                        "toolName": "Test Tool 1",
+                                        "toolDescription": "Test tool 1 description",
+                                        "domains": [
+                                            {
+                                                "domainName": "Tool 1 Domain Name",
+                                                "domainURI": "http://domain.uri1"
+                                            }
+                                        ],
+                                        "applications": [
+                                            {
+                                                "appName": "Tool 1 Application Name",
+                                                "appURI": "http://app.uri1"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "roleName": "Test Tool 2",
+                                        "id": "002",
+                                        "toolName": "Test Tool 2",
+                                        "toolDescription": "Test tool 2 description",
+                                        "domains": [
+                                            {
+                                                "domainName": "Tool 2 Domain Name",
+                                                "domainURI": "http://domain.uri2"
+                                            }
+                                        ],
+                                        "applications": [
+                                            {
+                                                "appName": "Tool 2 Application Name",
+                                                "appURI": "http://app.uri2"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+	}
+]

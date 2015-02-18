@@ -1,0 +1,1 @@
+{"author": "","hits": "2118","cited": "34","refs": "1","label": "Segemehl",			"summary": ["Map short reads to known genome with tolerance for mismatches and indels\nusing suffix arrays for high accuracy matching"],			"bio_tags": ["Genomics"],			"meth_tags": ["Mapping"],			"features": ["fast","precise","low cost for high-error matching"],			"language": ["C","C++"]		}

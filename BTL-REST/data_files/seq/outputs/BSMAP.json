@@ -1,0 +1,1 @@
+{"author": "","hits": "1600","cited": "33","refs": "1","label": "BSMAP",			"summary": ["short reads mapping software for bisulfite sequencing"],			"bio_tags": ["DNA methylation"],			"meth_tags": ["Mapping","Bisulfite mapping"],			"features": ["Bisulfite sequencing"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux 64"]		}

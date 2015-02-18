@@ -1,0 +1,1 @@
+{"author": "","hits": "1891","cited": "0","refs": "0","label": "BamView",			"summary": ["Interactive Java application for visualising the large amounts of data stored for sequence reads which are aligned against a reference genome sequence"],			"meth_tags": ["Visualization"],			"language": ["Java"],			"licence": ["GPL"],			"os": ["Mac OS X","UNIX","Windows"]		}

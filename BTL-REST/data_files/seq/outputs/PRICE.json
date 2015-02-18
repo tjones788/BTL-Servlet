@@ -1,0 +1,1 @@
+{"author": "","hits": "794","cited": "2","refs": "1","label": "PRICE",			"summary": ["PRICE uses paired-read information to iteratively increase the size of existing contigs."],			"meth_tags": ["Assembly"],			"language": ["C++"]		}

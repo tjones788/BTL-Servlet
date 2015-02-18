@@ -1,0 +1,1 @@
+{"author": "","hits": "1129","cited": "55","refs": "1","label": "Epigenome",			"summary": ["A bioinformatic pipeline that scores epigenetic alterations according to strength and significance and links them to potentially affected genes."],			"bio_tags": ["Epigenomics"],			"meth_tags": ["Bisulfite mapping"],			"language": ["R","Python"]		}

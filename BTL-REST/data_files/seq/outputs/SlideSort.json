@@ -1,0 +1,1 @@
+{"author": "","hits": "648","cited": "2","refs": "1","label": "SlideSort",			"summary": ["SlideSort finds all similar pairs from a string pool in terms of edit distance. Using an efficient pattern growth algorithm, SlideSort discovers chains of common k-mers to narrow down the search."],			"meth_tags": ["Clustering"],			"language": ["C++"],			"os": ["Linux","Windows"]		}

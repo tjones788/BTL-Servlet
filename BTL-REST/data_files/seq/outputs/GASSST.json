@@ -1,0 +1,1 @@
+{"author": "","hits": "1051","cited": "10","refs": "1","label": "GASSST",			"summary": ["Fast and accurate aligner for short an long reads"],			"meth_tags": ["Alignment","Mapping"],			"features": ["Gapped alignment","short and long reads"],			"language": ["C++"],			"licence": ["CeCILL"],			"os": ["Linux"]		}

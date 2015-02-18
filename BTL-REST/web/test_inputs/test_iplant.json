@@ -1,0 +1,1177 @@
+{
+  "name": "bowtie-lonestar",
+  "parallelism": "SERIAL",
+  "version": "0.12.8",
+  "helpURI": "",
+  "label": "Bowtie @ Lonestar",
+  "shortDescription": "",
+  "longDescription": "",
+  "author": "",
+  "tags": [
+    "stereochemical quality, quality, protein"
+  ],
+  "ontology": [
+    "http://sswapmeet.sswap.info/sequenceServices/MultipleSequenceAlignment"
+  ],
+  "executionHost": "lonestar4.tacc.teragrid.org",
+  "executionType": "HPC",
+  "deploymentPath": "/bioextract/applications/bowtie-0.12.8",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "checkpointable": "false",
+  "modules": [
+    "purge",
+    " load TACC"
+  ],
+  "inputs": [
+    {
+      "id": "__unpaired",
+      "validator": "",
+      "type": "string",
+      "value": {
+        "default": "",
+        "validator": "",
+        "required": "true",
+        "visible": "true"
+      },
+      "details": {
+        "visible": "true",
+        "description": "file containing unpaired reads, or the sequences themselves",
+        "label": "--unpaired"
+      },
+      "semantics": {
+        "minCardinality": "1",
+        "maxCardinality": "1",
+        "fileTypes": [
+          "fasta-0"
+        ],
+        "ontology": [
+          "http://sswapmeet.sswap.info/mime/text/X-fastq"
+        ]
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "__hit",
+      "value": {
+        "default": "output.txt",
+        "required": "true",
+        "validator": "",
+        "type": "string",
+        "visible": "true"
+      },
+      "details": {
+        "description": "Output file name",
+        "label": "--hit"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      }
+    },
+    {
+      "id": "_q",
+      "value": {
+        "default": "true",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "query input files are FASTQ .fq/.fastq",
+        "label": "-q"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_f",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "query input files are (multi-)FASTA .fa/.mfa",
+        "label": "-f"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_r",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "query input files are raw one-sequence-per-line",
+        "label": "-r"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_C",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "reads and index are in colorspace",
+        "label": "-C"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__skip",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "skip the first <int> reads/pairs in the input",
+        "label": "--skip"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__qupto",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "stop after first <int> reads/pairs (excl. skipped reads)",
+        "label": "--qupto"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__trim5",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "trim <int> bases from 5' (left) end of reads",
+        "label": "--trim5"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__trim3",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "trim <int> bases from 3' (right) end of reads",
+        "label": "--trim3"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__phred33_quals",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "input quals are Phred+3",
+        "label": "--phred33-quals"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__phred64_quals",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "input quals are Phred+64 (same as --solexa1.3-quals)",
+        "label": "--phred64-quals"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__solexa_quals",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "input quals are from GA Pipeline ver. < 1.3",
+        "label": "--solexa-quals"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__solexa1_3_quals",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "input quals are from GA Pipeline ver. >= 1.3",
+        "label": "--solexa1.3-quals"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__integer_quals",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "qualities are given as space-separated integers (not ASCII)",
+        "label": "--integer-quals"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_v",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "report end-to-end hits w/ <=v mismatches; ignore qualities",
+        "label": "-v"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__seedmms",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "0|1|2|3",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "max mismatches in seed (can be 0-3)",
+        "label": "--seedmms"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__maqerr",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "max sum of mismatch quals across alignment for -n ",
+        "label": "--maqerr"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__seedlen",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "seed length for -n ",
+        "label": "--seedlen"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__nomaqround",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "disable Maq-like quality rounding for -n (nearest 10 <= 30)",
+        "label": "--nomaqround"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__minins",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "minimum insert size for paired-end alignment",
+        "label": "--minins"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__maxins",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "maximum insert size for paired-end alignment",
+        "label": "--maxins"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__fr",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "-1, -2 mates align fw/rev",
+        "label": "--fr"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__rf",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "-1, -2 mates align rev/fw",
+        "label": "--rf"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__ff",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "-1, -2 mates align fw/fw",
+        "label": "--ff"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__nofw",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "do not align to forward reference strand",
+        "label": "--nofw"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__norc",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "do not align to reverse-complement reference strand",
+        "label": "--norc"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__maxbts",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "max # backtracks for -n 2/3",
+        "label": "--maxbts"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__pairtries",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "max # attempts to find mate for anchor hit",
+        "label": "--pairtries"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__tryhard",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "try hard to find valid alignments, at the expense of speed",
+        "label": "--tryhard"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_k",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "report up to <int> good alignments per read",
+        "label": "-k"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__all",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "report all alignments per read (much slower than low -k)",
+        "label": "--all"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "_m",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "suppress all alignments if > <int> exist",
+        "label": "-m"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "_M",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "like -m, but reports 1 random hit (MAPQ=0); requires --best",
+        "label": "-M"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__best",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "hits guaranteed best stratum; ties broken by quality",
+        "label": "--best"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__strata",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "hits in sub-optimal strata aren't reported (requires --best)",
+        "label": "--strata"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__time",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "print wall-clock time taken by search phases",
+        "label": "--time"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__offbase",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "leftmost ref offset = <int> in bowtie output",
+        "label": "--offbase"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__quiet",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "print nothing but the alignments",
+        "label": "--quiet"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__refout",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "write alignments to files refXXXXX.map, 1 map per reference",
+        "label": "--refout"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__refidx",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "refer to ref. seqs by 0-based index rather than name",
+        "label": "--refidx"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__max",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "string",
+        "visible": "true"
+      },
+      "details": {
+        "description": "write reads/pairs over -m limit to file(s) <fname>",
+        "label": "--max"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__suppress",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "string",
+        "visible": "true"
+      },
+      "details": {
+        "description": "suppresses given columns (comma-delim'ed) in default output",
+        "label": "--suppress"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      }
+    },
+    {
+      "id": "__fullref",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "write entire ref name (default: only up to 1st space)",
+        "label": "--fullref"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__snpphred",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "Phred penalty for SNP when decoding colorspace",
+        "label": "--snpphred"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__snpfrac",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "approx. fraction of SNP bases (e.g. 0.001); sets --snpphred",
+        "label": "--snpfrac"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:float"
+        ]
+      }
+    },
+    {
+      "id": "__col_cseq",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "print aligned colorspace seqs as colors, not decoded bases",
+        "label": "--col-cseq"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__col_cqual",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "print original colorspace quals, not decoded quals",
+        "label": "--col-cqual"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__col_keepends",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "keep nucleotides at extreme ends of decoded alignment",
+        "label": "--col-keepends"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__sam",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "write hits in SAM format",
+        "label": "--sam"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__mapq",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "default mapping quality (MAPQ) to print for SAM alignments",
+        "label": "--mapq"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__sam_nohead",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "supppress header lines (starting with @) for SAM output",
+        "label": "--sam-nohead"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__sam_nosq",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "false"
+      },
+      "details": {
+        "description": "supppress @SQ header lines for SAM output",
+        "label": "--sam-nosq"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__sam_RG",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "string",
+        "visible": "true"
+      },
+      "details": {
+        "description": "add <text> (usually \"lab=value\") to @RG line of SAM header",
+        "label": "--sam-RG"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      }
+    },
+    {
+      "id": "__offrate",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "override offrate of index; must be >= index's offrate",
+        "label": "--offrate"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__threads",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "number of alignment threads to launch",
+        "label": "--threads"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__mm",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "use memory-mapped I/O for index; many 'bowtie's can share",
+        "label": "--mm"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "__seed",
+      "value": {
+        "default": "",
+        "required": "false",
+        "validator": "",
+        "type": "number",
+        "visible": "true"
+      },
+      "details": {
+        "description": "seed for random number generator",
+        "label": "--seed"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:int"
+        ]
+      }
+    },
+    {
+      "id": "__verbose",
+      "value": {
+        "default": "false",
+        "required": "false",
+        "validator": "",
+        "type": "bool",
+        "visible": "true"
+      },
+      "details": {
+        "description": "verbose output (for debugging)",
+        "label": "--verbose"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:boolean"
+        ]
+      }
+    },
+    {
+      "id": "ebwt",
+      "value": {
+        "default": "e_coli",
+        "required": "true",
+        "validator": "a_thaliana|b_taurus|canFam2|c_elegans_ws200|d_melanogaster_fb5_22|e_coli|galGal3|hg18|hg19|h_sapiens_37_asm|h_sapiens_asm|mm8|mm9|m_musculus_ncbi37|rn4|s_cerevisiae ",
+        "type": "string",
+        "visible": "true"
+      },
+      "details": {
+        "description": "Index file",
+        "label": "EBWT Index file"
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      }
+    }
+  ]
+}

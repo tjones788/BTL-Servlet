@@ -1,0 +1,1 @@
+{"author": "","hits": "1447","cited": "12","refs": "1","label": "CnD",			"summary": ["Program to detect copy number variation in inbred mouse strains"],			"bio_tags": ["Copy number estimation"],			"meth_tags": ["Hidden Markov Model"],			"language": ["D"],			"licence": ["GPL"]		}

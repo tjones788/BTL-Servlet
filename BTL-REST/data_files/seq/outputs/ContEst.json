@@ -1,0 +1,1 @@
+{"author": "","hits": "587","cited": "2","refs": "1","label": "ContEst",			"summary": ["GATK tool to estimate amount of cross-individual contaminating sequence in a dataset"],			"meth_tags": ["Sequencing Quality Control"],			"language": ["Java"],			"licence": ["BSD"]		}

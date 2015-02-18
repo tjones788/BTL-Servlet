@@ -1,0 +1,1 @@
+{"author": "","hits": "3502","cited": "975","refs": "1","label": "ERANGE",			"summary": ["ERANGE is a Python package for doing RNA-seq and ChIP-seq."],			"bio_tags": ["RNA-Seq Alignment","RNA-Seq Quantitation","ChIP-Seq","Allele-specific transcription"],			"features": ["RNAseq analysis","Chipseq analysis"],			"language": ["Python"]		}

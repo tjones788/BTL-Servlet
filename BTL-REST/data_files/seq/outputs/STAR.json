@@ -1,0 +1,1 @@
+{"author": "","hits": "898","cited": "1","refs": "1","label": "STAR",			"summary": ["Ultrafast universal RNA-seq aligner"],			"bio_tags": ["RNA-Seq","Transcriptome"],			"meth_tags": ["Sequence alignment to a reference genome"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux","Unix","Mac OS X; x86_64"]		}

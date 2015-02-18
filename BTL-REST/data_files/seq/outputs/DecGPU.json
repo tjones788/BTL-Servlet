@@ -1,0 +1,1 @@
+{"author": "","hits": "610","cited": "2","refs": "1","label": "DecGPU",			"summary": ["Parallel and distributed error correction algorithm for high-throughput short reads."],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Error correction","GPU"],			"language": ["C++"],			"licence": ["GPLv3"],			"os": ["Linux"]		}

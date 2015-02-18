@@ -1,0 +1,1 @@
+{"author": "","hits": "9163","cited": "1349","refs": "2","label": "Bowtie",			"summary": ["Bowtie is an ultrafast, memory-efficient short read aligner."],			"meth_tags": ["Mapping","Burrows-Wheeler","FM-Index"],			"os": ["Mac OS X","Linux","Windows"]		}

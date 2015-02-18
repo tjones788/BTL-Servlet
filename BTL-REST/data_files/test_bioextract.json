@@ -1,0 +1,36 @@
+{
+     "id": 123,
+     "name": "Bio Extract Tool Name",
+     "description": "This is a tool from Bio Extract",
+     "inputs": [
+         {
+             "id": 0,
+             "name": "Input 0",
+             "namespace": "Input 0 Namespace",
+             "description": "This is one input of this tool.",
+             "required": true
+         },
+		          {
+             "id": 1,
+             "name": "Input 1",
+             "namespace": "Input 1 Namespace",
+             "description": "This is one input of this tool. 1",
+             "required": false
+         }
+     ],
+     "outputs": [
+         {
+             "id": 0,
+             "name": "Output 0",
+             "namespace": "Output 0 Namesapce",
+             "description": "This is one output of this tool. -0"
+         },
+		 {
+             "id": 1,
+             "name": "Output 1",
+             "namespace": "Output 1 Namesapce",
+             "description": "This is one output of this tool. -1"
+         }
+     ]
+     }
+

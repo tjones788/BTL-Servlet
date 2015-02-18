@@ -1,0 +1,1 @@
+{"author": "","hits": "3625","cited": "973","refs": "12","label": "STADEN",			"summary": ["Includes GAP4, GAP5, SPIN, TREV, and numerous smaller tools."],			"meth_tags": ["Assembly","Alignment","Visualization"],			"features": ["Integrated solution"],			"language": ["C","C++","Tcl","Fortran"],			"licence": ["BSD"],			"os": ["Linux","Windows","Mac OS X","UNIX"]		}

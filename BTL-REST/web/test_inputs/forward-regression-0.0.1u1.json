@@ -1,0 +1,229 @@
+{
+  "name": "forward-regression",
+  "version": "0.0.1",
+  "helpURI": "https://pods.iplantcollaborative.org/wiki/display/DEapps/ForwardRegression",
+  "label": "Forward Regression 0.0.1 (Lonestar)",
+  "defaultQueue": "normal",
+  "defaultRequestedTime": "24:00:00",
+  "shortDescription": "FR: Partitioned Linear Model based Forward Regression",
+  "executionSystem": "stampede.tacc.utexas.edu",
+  "executionType": "HPC",
+  "parallelism": "SERIAL",
+  "deploymentPath": "/ipcservices/applications/forward-regression-0.0.1u1.zip",
+  "deploymentSystem": "data.iplantcollaborative.org",
+  "templatePath": "wrapper.sh",
+  "testPath": "test/test.sh",
+  "tags": [
+    "PLM",
+    "SNP",
+    "Forward Regression",
+    "QTL"
+  ],
+  "modules": [
+    "purge",
+    "load TACC",
+    "load irods",
+    "load gsl/1.14"
+  ],
+  "inputs": [
+    {
+      "id": "f",
+      "details": {
+        "label": "Fixed effect file:",
+        "description": "File contains fiexed effect (population structure) information",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util/"
+        ],
+        "fileTypes": [
+          "Text-0"
+        ]
+      },
+      "value": {
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "g",
+      "details": {
+        "label": "Genotype file:",
+        "description": "SNP file",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util"
+        ],
+        "fileTypes": [
+          "Text-0"
+        ]
+      },
+      "value": {
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "r",
+      "details": {
+        "label": "Phenotype file:",
+        "description": "File contains phenotype information",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/util/"
+        ],
+        "fileTypes": [
+          "Text-0"
+        ]
+      },
+      "value": {
+        "required": true,
+        "visible": true
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "l",
+      "details": {
+        "label": "Number of iterations: ",
+        "description": "Specify the number of iterations.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "50",
+        "type": "number",
+        "validator": "\\d++",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "num_geno",
+      "details": {
+        "label": "Number of genotypes:",
+        "description": "Specify the number of genotypes.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "103234",
+        "type": "number",
+        "validator": "\\d++",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "num_r",
+      "details": {
+        "label": "Number of samples: ",
+        "description": "Specify the number of samples.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "4892",
+        "type": "number",
+        "validator": "\\d++",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "e",
+      "details": {
+        "label": "P_value cutoff: ",
+        "description": "P-value cutoff for forward regression.",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:float"
+        ]
+      },
+      "value": {
+        "default": "0.1",
+        "type": "number",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "c",
+      "details": {
+        "label": ": ",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "required": true,
+        "visible": false
+      }
+    },
+    {
+      "id": "num_fixed",
+      "details": {
+        "label": "Number of fixed effects:",
+        "description": "Specify the number of fixed effects",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:integer"
+        ]
+      },
+      "value": {
+        "default": "26",
+        "type": "number",
+        "validator": "\\d++",
+        "required": true,
+        "visible": true
+      }
+    },
+    {
+      "id": "v2",
+      "details": {
+        "label": ": ",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "required": true,
+        "visible": false
+      }
+    }
+  ],
+  "checkpointable": false
+}

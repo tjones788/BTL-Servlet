@@ -1,0 +1,1 @@
+{"author": "","hits": "1005","cited": "68","refs": "1","label": "VCFtools",			"summary": ["Package for dealing with VCF (variant call format) files.  Both command line and Perl API."],			"meth_tags": ["Programming Library"],			"language": ["C++"],			"licence": ["GPLv3"]		}

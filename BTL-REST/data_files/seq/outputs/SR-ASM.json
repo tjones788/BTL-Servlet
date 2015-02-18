@@ -1,0 +1,1 @@
+{"author": "","hits": "1201","cited": "2","refs": "1","label": "SR-ASM",			"summary": ["SR-ASM algorithm is designed for DNA assembly of the short sequences coming from 454 sequencers."],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Assembly"],			"language": ["C++"],			"os": ["Linux","UNIX"]		}

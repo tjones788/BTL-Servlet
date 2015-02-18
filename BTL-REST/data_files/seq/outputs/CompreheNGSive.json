@@ -1,0 +1,1 @@
+{"author": "","hits": "314","cited": "0","refs": "0","label": "CompreheNGSive",			"summary": ["compreheNGSive is an interactive visualization of the end results of the next-generation sequencing pipeline."],			"bio_tags": ["Next Generation Sequencing"],			"meth_tags": ["Visualization"],			"language": ["Python","Qt"],			"licence": ["LGPL"],			"os": ["Mac OS X","Linux"]		}

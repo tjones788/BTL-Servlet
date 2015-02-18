@@ -1,0 +1,1 @@
+{"author": "","hits": "346","cited": "0","refs": "0","label": "Swalign",			"summary": ["A simple Smith-Waterman alignment implementation in C"],			"meth_tags": ["Alignment"],			"language": ["C"],			"licence": ["MIT"]		}

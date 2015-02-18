@@ -1,0 +1,1 @@
+{"author": "","hits": "851","cited": "26","refs": "1","label": "FragGeneScan",			"summary": ["Application for finding (fragmented) genes in short reads"],			"bio_tags": ["Metagenomics"],			"language": ["C","Perl"],			"licence": ["GPL"]		}

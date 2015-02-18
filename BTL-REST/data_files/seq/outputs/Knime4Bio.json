@@ -1,0 +1,1 @@
+{"author": "","hits": "472","cited": "0","refs": "1","label": "Knime4Bio",			"summary": ["custom nodes for the interpretation of Next Generation Sequencing data with KNIME."],			"bio_tags": ["Genomics","Gene annotation retrieval","Mutations and regulatory sites"],			"features": ["KNIME"],			"language": ["Java"],			"licence": ["GPLv3"],			"os": ["any"]		}

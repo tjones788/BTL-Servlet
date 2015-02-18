@@ -1,0 +1,1 @@
+{"author": "","hits": "1026","cited": "0","refs": "0","label": "Reptile",			"summary": ["A new algorithm for short read error correction that harvests information from k-spectrum and read decomposition"],			"bio_tags": ["Genomics"],			"meth_tags": ["Sequencing Quality Control"],			"language": ["C++"],			"licence": ["GPL  Boost"]		}

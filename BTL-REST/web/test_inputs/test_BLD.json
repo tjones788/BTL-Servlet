@@ -1,0 +1,130 @@
+{
+    "type": "tool",
+    "url": "http:\/\/bibiserv.techfak.uni-bielefeld.de\/agenda\/",
+    "url_linksdir": "http:\/\/bioinformatics.ca\/links_directory\/tool\/9218\/agenda",
+    "title": "AGenDA",
+    "description": "AGenDA is a web tool that compares the genomic sequences from evolutionarily related organisms in order to make gene predictions.  It takes pairs of genomic sequences as input, aligns the sequences, and makes predictions based on splice signals, start and stop codons, and areas of conserved sequence.",
+    "twitter": "www.twitter.com",
+    "wikipedia": "www.wikipedia.org",
+    "pmids": [
+      "15215399"
+    ],
+    "categories": [
+      {
+        "category_id": 89864,	
+        "category_name": "Analysis of Aligned Sequences",
+        "category_path": "Sequence Comparison &gt; Analysis of Aligned Sequences"
+      },
+      {
+        "category_id": 89794,
+        "category_name": "Gene Prediction",
+        "category_path": "DNA &gt; Gene Prediction"
+      }
+    ],
+    "journals": [
+      {
+        "id": "10000",
+        "name": "NAR Web Server Issue 2004 - 1"
+      },
+	        {
+        "id": "20000",
+        "name": "NAR Web Server Issue 2004 - 2"
+      }
+    ],
+    "related_links": [
+      "9407",
+      "9371",
+      "21370",
+      "21312",
+      "10257",
+      "13757",
+      "13230",
+      "12136",
+      "11308",
+      "10597",
+      "9338",
+      "10494",
+      "9390",
+      "10401",
+      "10345",
+      "10288",
+      "10216",
+      "10196",
+      "10170",
+      "10166",
+      "10154",
+      "9373",
+      "9254",
+      "9339",
+      "9766",
+      "9706",
+      "9906",
+      "9972",
+      "9933",
+      "9635"
+    ],
+    "tags": [
+      {
+        "tag_id": "1",
+        "tag_name": "animals"
+      },
+      {
+        "tag_id": "2",
+        "tag_name": "base sequence"
+      },
+      {
+        "tag_id": "47",
+        "tag_name": "conserved sequence"
+      },
+      {
+        "tag_id": "345",
+        "tag_name": "dna footprinting"
+      },
+      {
+        "tag_id": "32",
+        "tag_name": "dna sequence analysis"
+      },
+      {
+        "tag_id": "177",
+        "tag_name": "genes"
+      },
+      {
+        "tag_id": "44",
+        "tag_name": "genomics"
+      },
+      {
+        "tag_id": "17",
+        "tag_name": "humans"
+      },
+      {
+        "tag_id": "84",
+        "tag_name": "mice"
+      },
+      {
+        "tag_id": "78",
+        "tag_name": "nucleic acid sequence homology"
+      },
+      {
+        "tag_id": "7",
+        "tag_name": "phylogeny"
+      },
+      {
+        "tag_id": "181",
+        "tag_name": "rna splicing"
+      },
+      {
+        "tag_id": "10",
+        "tag_name": "sequence alignment"
+      }
+    ],
+   "sets":[
+		{
+		  "set_id": "1",
+		  "set_name": "Open Bioinformatics Foundation Set 1"
+		},
+		{
+		  "set_id": "2",
+		  "set_name":"Open Bioinformatics Foundation Set 2"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+{"author": "","hits": "853","cited": "4","refs": "1","label": "ProbeMatch",			"summary": ["Matches a large set of oligonucleotide sequences against a genome database using gapped alignments"],			"meth_tags": ["Mapping"],			"os": ["Linux","Mac OS X"]		}

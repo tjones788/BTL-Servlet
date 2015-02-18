@@ -1,0 +1,1 @@
+{"author": "","hits": "1057","cited": "5","refs": "1","label": "SeqCons",			"summary": ["SeqCons is an open source consensus computation program for Linux and Windows. The algorithm can be used for de novo and reference-guided sequence assembly."],			"meth_tags": ["Assembly"],			"os": ["Linux","Windows"]		}

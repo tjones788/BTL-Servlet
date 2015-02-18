@@ -1,0 +1,1 @@
+{"author": "","hits": "1980","cited": "0","refs": "0","label": "AB Large Indel Tool",			"summary": ["Identifies deviations in clone insert size that indicate intra-chromosomal structural variations compared to a reference genome."],			"bio_tags": ["InDel discovery","Sequencing"],			"meth_tags": ["Mapping"],			"language": ["Perl"],			"licence": ["GPL"],			"os": ["Linux 64"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "697","cited": "0","refs": "0","label": "Scaffolder",			"summary": ["Edit your genome sequence using a simple human readable syntax. Manage contig positions and add inserts all in a plain text file."],			"meth_tags": ["Scaffolding"],			"language": ["Ruby"],			"licence": ["MIT"],			"os": ["Linux","Mac OS X"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "769","cited": "6","refs": "1","label": "RAPSearch",			"summary": ["Fast protein similarity search tool for short reads that utilizes a reduced amino acid alphabet and suffix array to detect seeds of flexible length."],			"bio_tags": ["Metagenomics"],			"meth_tags": ["Alignment"],			"language": ["C++"],			"licence": ["GPLv3"]		}

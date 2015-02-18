@@ -1,0 +1,1 @@
+{"author": "","hits": "591","cited": "2","refs": "1","label": "BFCounter",			"summary": ["BFCounter is a program for counting k-mers in DNA sequence data."],			"meth_tags": ["K-mer analysis"],			"language": ["C++"],			"licence": ["GPL v3"]		}

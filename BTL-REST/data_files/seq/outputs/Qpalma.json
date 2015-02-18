@@ -1,0 +1,1 @@
+{"author": "","hits": "2079","cited": "28","refs": "1","label": "Qpalma",			"summary": ["QPalma is an alignment tool targeted to align spliced reads produced by Next Generation sequencing platforms"],			"bio_tags": ["RNA-Seq Alignment"],			"meth_tags": ["Alignment"],			"language": ["Python","C++"]		}

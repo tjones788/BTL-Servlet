@@ -1,0 +1,1 @@
+{"author": "","hits": "2128","cited": "95","refs": "1","label": "FindPeaks 3.1",			"summary": ["Findpeaks was developed to perform analysis of ChIP-Seq experiments."],			"bio_tags": ["ChIP-Seq"],			"meth_tags": ["Peak calling"],			"licence": ["GPLv3"]		}

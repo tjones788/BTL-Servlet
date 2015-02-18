@@ -1,0 +1,1 @@
+{"cited": "0","refs": "1","label": "DCLIP",			"summary": ["dCLIP is a Perl program for discovering differential binding regions in two comparative CLIP-Seq (HITS-CLIP, PAR-CLIP or iCLIP) experiments."],			"bio_tags": ["CLIP-Seq","HITS-CLIP","PAR-CLIP","ICLIP"],			"meth_tags": ["Alignment Analysis"],			"language": ["Perl","C"],			"os": ["UNIX","Unix-like"]		}

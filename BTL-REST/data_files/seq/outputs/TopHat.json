@@ -1,0 +1,1 @@
+{"author": "","hits": "4881","cited": "495","refs": "2","label": "TopHat",			"summary": ["TopHat is a fast splice junction mapper for RNA-Seq reads."],			"bio_tags": ["RNA-Seq Alignment"],			"meth_tags": ["Alignment","Mapping"],			"language": ["C++"],			"licence": ["Boost"],			"os": ["Linux","Unix"]		}

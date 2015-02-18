@@ -1,0 +1,1 @@
+{"author": "","hits": "17245","cited": "930","refs": "2","label": "Velvet",			"summary": ["Velvet is a de novo genomic assembler specially designed for short read sequencing technologies, such as Solexa or 454 or SOLiD"],			"bio_tags": ["De-novo assembly"],			"meth_tags": ["Assembly","De Bruijn graph"],			"licence": ["GPL"]		}

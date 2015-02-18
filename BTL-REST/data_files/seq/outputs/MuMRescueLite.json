@@ -1,0 +1,1 @@
+{"author": "","hits": "1061","cited": "8","refs": "1","label": "MuMRescueLite",			"summary": ["Probabilistically reincorporates multi-mapping tags into mapped short read data."],			"bio_tags": ["Genomics","ChIP-Seq"],			"meth_tags": ["Mapping"],			"language": ["Python"],			"licence": ["MIT"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "4349","cited": "26","refs": "1","label": "Oases",			"summary": ["De novo transcriptome assembler for very short reads"],			"bio_tags": ["De novo transcriptome assembly"],			"features": ["supports strand specific and paired-end RNA-seq data sets"],			"language": ["C"],			"licence": ["GPLv3"]		}

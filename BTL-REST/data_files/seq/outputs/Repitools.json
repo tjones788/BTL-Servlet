@@ -1,0 +1,1 @@
+{"author": "","hits": "1088","cited": "11","refs": "1","label": "Repitools",			"summary": ["Toolbox of procedures to interrogate and visualize epigenomic data.  Part of BioConductor"],			"bio_tags": ["ChIP-Seq","ChIP-on-chip"],			"meth_tags": ["Sequencing Quality Control","Visualization","Methylation Calling","Statistical testing"],			"language": ["R"],			"licence": ["LGPL"]		}

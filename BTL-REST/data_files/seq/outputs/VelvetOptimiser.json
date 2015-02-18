@@ -1,0 +1,1 @@
+{"author": "","hits": "1190","cited": "0","refs": "0","label": "VelvetOptimiser",			"summary": ["VelvetOptimiser is a multi-threaded Perl script for automatically optimising the parameter options for the Velvet de novo sequence assembler."],			"bio_tags": ["De-novo assembly"],			"language": ["Perl"],			"licence": ["GPLv2"]		}

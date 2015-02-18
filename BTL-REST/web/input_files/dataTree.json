@@ -1,0 +1,109 @@
+[
+	{
+		"roleName": "Data",
+        "id": "role1",
+        "children": [
+        {
+        "roleName": "Core data",
+                "id": "role11",
+                "collapsed": true,
+                "children": [
+                {
+                "roleName": "Alignment",
+                        "id": "http://edamontology.org/operation_2951",
+                        "children": [
+                        {
+								"roleName": "Protein Alignment",
+                                "id": "001",
+                                "dataSetId": "ds1",
+								"name": "Dataset 1",
+								"parent": "parent1",
+								"files": [
+									{
+										"fileId": "file1",
+										"fileFormat": ".txt"
+									},
+									{
+										"fileId": "file2",
+										"fileFormat": ".fasta"
+									}
+								],
+                                "children" : [ ]
+                        },
+                        {
+                                "roleName": "Secondary Structure Alignment",
+                                "id": "002",
+                                "toolName": "Test Tool 1",
+                                "toolDescription": "Test tool 1 description"
+                        },
+                        {
+                                "roleName": "Sequence profile alignment",
+                                "id": "003",
+                                "toolName": "Test Tool 1",
+                                "toolDescription": "Test tool 1 description"
+                        },
+                        {
+                                "roleName": "Sequence structure alignment",
+                                "id": "004",
+                                "toolName": "Test Tool 1",
+                                "toolDescription": "Test tool 1 description"
+                        }                        
+                        ]
+                },
+                {
+                "roleName": "Biological Model",
+                        "id": "http://edamontology.org/operation_2409",
+                        "children": [
+                        {
+                        "roleName": "Test Tool 1",
+                                "id": "002",
+                                "toolName": "Test Tool 1",
+                                "toolDescription": "Test tool 1 description"
+                        }
+                        ]
+                }
+                ]
+        },
+        {
+        "roleName": "Identifier",
+                "id": "role12",
+                "collapsed": true,
+                "children": [
+                {
+                "roleName": "Gene expression profile annotation",
+                        "id": "role121",
+                        "children": [
+                        {
+                        "roleName": "Tool 1",
+                                "id": "role1211",
+                                "children": []
+                        },
+                        {
+                        "roleName": "subApplication2-1-2",
+                                "id": "role1212",
+                                "children": [
+                                {
+                                "roleName": "subApplication2-1-2-1",
+                                        "id": "role1211",
+                                        "children": [
+                                        {
+                                        "roleName": "subApplication2-1-1",
+                                                "id": "role1211",
+                                                "children": []
+                                        }
+                                        ]
+                                },
+                                {
+                                "roleName": "subApplication2-1-2-2",
+                                        "id": "role1211",
+                                        "children": []
+                                }
+                                ]
+                        }
+                        ]
+                }
+                ]
+        }
+        ]
+}
+]

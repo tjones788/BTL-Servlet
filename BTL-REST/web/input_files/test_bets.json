@@ -1,0 +1,505 @@
+{
+  "name": "Mothur",
+  "display_name": "Mothur",
+  "version": "1.0",
+  "summary": "Web Version of Mothur",
+  "description": "Long Description of Mothur Program...",
+  "limitations": "Test Limitation",
+  "example": [
+    {
+      "id": "0001",
+      "url": "http://www.google.com",
+      "description": "Example screenshot of Mothur"
+    }
+  ],
+  "links": [
+    {
+      "name": "Mothur Link",
+      "url": "http://www.google.com",
+      "type": "iPlant",
+      "description": ""
+    },
+	{
+      "name": "Mothur Link",
+      "url": "http://www.google.com1",
+      "type": "BLD",
+      "description": ""
+    },
+	{
+      "name": "Mothur Link",
+      "url": "http:\/\/bioinformatics.ca\/links_directory\/tool\/9218\/agenda",
+      "type": "BLD_LinksDir",
+      "description": ""
+    },
+	{
+      "name": "Mothur Link",
+      "url": "http://www.twitter.com",
+      "type": "BLD_Twitter",
+      "description": ""
+    },	
+	{
+      "name": "Mothur Link",
+      "url": "http://www.wikipedia.org",
+      "type": "BLD_Wikipedia",
+      "description": ""
+    }
+  ],
+  "references": [
+    {
+      "id": "003",
+      "name": "Ref Test",
+      "url": "www.ref.com"
+    }
+  ],
+  "author": "Cole Trapnell",
+  "created_at": "USD",
+  "owner": "USD Bioinformatics",
+  "maintained": "Yes",
+  "availability": [
+    {
+      "description": "This tool is available on iPlant",
+      "name": "Test Available",
+      "location": "iPlant",
+      "link": "http://www.iplant.com",
+      "status": "YES"
+    }
+  ],
+  "contact": {
+    "name": "Tyler Jones",
+    "address": "123 Main St",
+    "email": "test@email.com",
+    "phone": "515-555-1234",
+    "institution": "USD"
+  },
+  "category": {
+    "name": "Bioinformatics",
+    "id": "002",
+    "path": "/test",
+    "application": [
+      {
+        "Name": "app1",
+        "id": "001",
+        "definitions": "This application...",
+        "created_in": "v0.1"
+      },
+	  {
+        "Name": "app2",
+        "id": "001",
+        "definitions": "This application...",
+        "created_in": "v0.1"
+      }
+    ],
+    "domain": [
+      {
+        "name": "Test Domain",
+        "synonyms": "Domain",
+        "definitions": "This domain is ...",
+        "id": "002",
+        "created_in": "v0.1"
+      }
+    ],
+    "method": [
+      {
+        "name": "Method Name 1",
+        "synonyms": "Method",
+        "definitions": "This method is...",
+        "id": "001",
+        "created_in": "v0.1"
+      },
+	  {
+        "name": "Method Name 2",
+        "synonyms": "Method",
+        "definitions": "This method is...",
+        "id": "001",
+        "created_in": "v0.1"
+      }
+    ],
+	"tags": ["test", "test2"],
+		
+    "format": {
+      "formatLabel": "Test Format"
+    },
+    "ngs_provider": {
+      "name": "Test NGS PROVIDER"
+    },
+    "sequence_platform": {
+      "name": "TEST SEQ PLATFORM"
+    },
+    "reference": {
+      "id": "1356",
+      "title": "NGS testing to...",
+      "journal": "PubMed",
+      "year": "2014",
+      "author": "USD"
+    }
+  },
+  "technology": [
+    {
+      "name": "Oracle",
+	  "test": "Added 2nd value to array"
+    }
+  ],
+  "programming_language": [
+    {
+      "name": "Java",
+      "id": "001",
+      "definition": "Java is an Object Oriented programming language..."
+    },
+	{
+      "name": "C++",
+      "id": "001",
+      "definition": "Java is an Object Oriented programming language..."
+    }
+  ],
+  "license": [
+    {
+      "name": "MIT",
+      "id": "001",
+      "creator": "test creator",
+      "definition": "This license is...",
+      "link": {
+        "name": "Link name",
+        "url": "www.linkurl.com",
+        "type": "Link",
+        "description": "This link..."
+      }
+    }
+  ],
+  "operating_system": [
+    {
+      "name": "Windows",
+      "id": "005",
+      "version": "7"
+    }
+  ],
+  "software_features": "Features",
+  "software_libraries": "Libraries",
+  "inputs": [
+    {
+      "description": "test input",
+      "format": "FASTA",
+      "name": "Input Name",
+      "label": "-f",
+      "type": "input",
+      "constraint": [
+        {
+          "label": "Ontology",
+          "value": "www.test.com"
+        },
+	    {
+          "label": "Ontology",
+          "value": "www.test1.com"
+        },
+		{
+			"label" : "Filetype",
+			"value" : "Text-1-Filetype"
+		}, 
+		{
+			"label" : "Filetype",
+			"value" : "Text-2-Filetype"
+		},		
+		{
+			"label" : "Ontology",
+			"value" : "www.ontology.com"
+		},
+		{
+			"label" : "Ontology",
+			"value" : "www.2ndontology.com"
+		}, 
+		{
+			"label" : "MinCardinality",
+			"value" : "1"
+		},
+		{
+			"label" : "MaxCardinality",
+			"value" : "2"
+		},
+		{
+			"label" : "Validator",
+			"value" : "test validator"
+		},
+		{
+			"label" : "Default",
+			"value" : "Value-Default"
+		},
+		{
+			"label" : "Description",
+			"value" : "Command option -o"
+		},
+		{
+			"label" : "Label",
+			"value" : "Output file name, ignored for multi input"
+		},
+		{
+			"label" : "ID",
+			"value" : "1"
+		},
+		{
+			"label" : "Namespace",
+			"value" : "BioExtract Input Namespace"
+		}
+      ],
+      "validator": "test validator",
+      "default": "test",
+      "required": true,
+      "ontology_uri": "www.edam.com/",
+      "visible": true
+    }
+  ],
+  "parameters": [
+    {
+      "name": "Test Param",
+      "value": "1",
+      "type": "Bets",
+      "label": "label1",
+      "required": "no",
+      "default": "yes",
+      "validator": "validator",
+      "visible": "yes",
+	  "description": "test description",
+	  "constraint": [
+        {
+          "label": "Ontology",
+          "value": "x"
+        },
+		{
+			"label": "Ontology",
+			"value": "www.com.com"
+		}
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "output name",
+      "format": "FASTA",
+      "value": "x",
+      "type": "xyz",
+      "file": "file://test",
+      "filter": "x",
+      "quality": {
+        "object": "obj",
+        "variable": "x",
+        "type": "type x",
+        "value": "test"
+	  },	
+	  "constraint": [
+        {
+          "label": "Filetype",
+          "value": "x"
+        },
+		{
+          "label": "Ontology",
+          "value": "x1"
+        },
+		{
+			"label": "Default",
+           "value": "x1"
+		},
+		{
+			"label": "MinCardinality",
+			"value": "1"
+		},
+		{
+			"label": "MaxCardinality",
+           "value": "2"
+		},	
+		{
+			"label": "Validator",
+            "value": "output-value-validator"
+		},	
+		{
+			"label": "Description",
+           "value": "output-details-description"
+		},
+		{
+			"label": "ID",
+           "value": "1"
+		},
+		{
+			"label": "Namespace",
+           "value": "BioExt Output Namespace"
+		}		
+      ]
+    }
+    
+  ],
+  "requirements": "Requires",
+  "quality": [
+    {
+      "object": "obj",
+      "variable": "test",
+      "type": "x",
+      "value": "y"
+    }
+  ],
+  "learn_flow": [
+    {
+      "name": "LF1",
+      "description": "Learn Flow 1",
+      "link": {
+        "name": "Learn flow name",
+        "url": "www.learnflow.com",
+        "type": "LF",
+        "description": "This learn flow is..."
+      },
+      "resource_id": "0056"
+    }
+  ],
+  "release_date": "Jan 1, 2014",
+  "algorithm": [
+    {
+      "name": "Algo1",
+      "link": {
+        "name": "AlgoLink",
+        "url": "www.link.com",
+        "type": "test link",
+        "description": "Algo Link description..."
+      },
+      "description": "algo description",
+      "version": "v1",
+      "features": "Algo features",
+      "complexity": "On",
+      "reference": "Algo Reference"
+    }
+  ],
+  "iplant_specific": {
+    "ontology": ["galaxy type"],
+    "executionHost": "other repo tools",
+    "executionType": "www.repolink.com",
+    "deploymentPath": "Repo Name",
+    "templatePath": "Repo Revision",
+	"testPath": "Repo Revision",
+	"checkpointable": "Repo Revision",
+	"defaultprocessors": "test1",
+    "defaultmemory": "test2",
+    "defaultrequestedtime": "test3",
+	"modules": [ 
+		"purge",
+		"load TACC"
+	]
+  },
+  "seq_specific": {
+    "hits": 100,
+    "cited": 10,
+    "references": 100,
+	"art_size": 25,
+	"art_score": 50
+  },
+  "galaxy_specific": {
+    "tool_type": "galaxy type",
+    "repo_contents": "other repo tools",
+    "repo_link": "www.repolink.com",
+    "repo_name": "Repo Name",
+    "repo_revision": "Repo Revision"
+  },
+  "bld_specific": {
+	"tags": [
+      {
+        "tag_id": "1",
+        "tag_name": "animals"
+      },
+      {
+        "tag_id": "2",
+        "tag_name": "base sequence"
+      },
+      {
+        "tag_id": "47",
+        "tag_name": "conserved sequence"
+      },
+      {
+        "tag_id": "345",
+        "tag_name": "dna footprinting"
+      },
+      {
+        "tag_id": "32",
+        "tag_name": "dna sequence analysis"
+      },
+      {
+        "tag_id": "177",
+        "tag_name": "genes"
+      },
+      {
+        "tag_id": "44",
+        "tag_name": "genomics"
+      },
+      {
+        "tag_id": "17",
+        "tag_name": "humans"
+      },
+      {
+        "tag_id": "84",
+        "tag_name": "mice"
+      },
+      {
+        "tag_id": "78",
+        "tag_name": "nucleic acid sequence homology"
+      },
+      {
+        "tag_id": "7",
+        "tag_name": "phylogeny"
+      },
+      {
+        "tag_id": "181",
+        "tag_name": "rna splicing"
+      },
+      {
+        "tag_id": "10",
+        "tag_name": "sequence alignment"
+      }
+    ],  
+    "sets": [
+		{
+		  "set_id": "1",
+		  "set_name": "Open Bioinformatics Foundation Set 1"
+		},
+		{
+		  "set_id": "2",
+		  "set_name":"Open Bioinformatics Foundation Set 2"
+		}
+	],
+	"categories":[
+		{
+			"category_id": 89864,	
+			"category_name": "Analysis of Aligned Sequences",
+			"category_path": "Sequence Comparison &gt; Analysis of Aligned Sequences"
+		},
+		{
+			"category_id": 89794,
+			"category_name": "Gene Prediction",
+			"category_path": "DNA &gt; Gene Prediction"
+		}
+	],
+	"journals": [
+      {
+        "id": "10000",
+        "name": "NAR Web Server Issue 2004 - 1"
+      },
+	        {
+        "id": "20000",
+        "name": "NAR Web Server Issue 2004 - 2"
+      }
+    ],
+	"related_links": [
+      {
+        "name": "9001",
+        "url": "www.bldlinks.com",
+        "type": "test",
+        "description": "test1"
+      },
+      {
+        "name": "9002",
+        "url": "www.bldlinks.com",
+        "type": "test",
+        "description": "test1"
+      },
+      {
+        "name": "9003",
+        "url": "www.bldlinks.com",
+        "type": "test",
+        "description": "test1"
+      }
+    ]
+  },
+  "parallelism": "serial"
+}

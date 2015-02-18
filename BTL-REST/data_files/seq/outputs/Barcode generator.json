@@ -1,0 +1,1 @@
+{"author": "","hits": "1109","cited": "0","refs": "0","label": "Barcode generator",			"summary": ["Generator of sequence barcodes suitable for Illumina sequencing."],			"meth_tags": ["Sample Barcoding"],			"language": ["Python"]		}

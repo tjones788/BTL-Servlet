@@ -1,0 +1,1 @@
+{"author": "","hits": "640","cited": "6","refs": "1","label": "PICS",			"summary": ["PICS identifies binding event locations by modeling local concentrations of directional reads, and uses DNA fragment length prior information to discriminate closely adjacent binding events via a Bayesian hierarchical t-mixture model."],			"bio_tags": ["ChIP-Seq"],			"language": ["R"]		}

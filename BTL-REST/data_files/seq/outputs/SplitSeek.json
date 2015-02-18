@@ -1,0 +1,1 @@
+{"author": "","hits": "1031","cited": "26","refs": "1","label": "SplitSeek",			"summary": ["de novo prediction of splice junctions in short-read RNA-seq data, suitable for detection of novel splicing events and chimeric transcripts."],			"bio_tags": ["RNA-Seq Alignment"],			"language": ["Perl"],			"licence": ["GPL"]		}

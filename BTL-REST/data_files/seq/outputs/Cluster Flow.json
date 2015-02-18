@@ -1,0 +1,1 @@
+{"cited": "0","refs": "0","label": "Cluster Flow",			"summary": ["A command-line pipeline tool which uses common cluster managers to run bioinformatics analysis pipelines."],			"meth_tags": ["Pipeline Management"],			"language": ["Perl","though modules can be any language"],			"licence": ["GNU GPL v3"],			"os": ["Linux"]		}

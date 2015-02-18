@@ -1,0 +1,1 @@
+{"author": "","hits": "2033","cited": "288","refs": "1","label": "SSAHA",			"summary": ["SSAHA (Sequence Search and Alignment by Hashing Algorithm) is an algorithm for very fast matching and alignment of DNA sequences."],			"meth_tags": ["Alignment","Smith-Waterman"],			"licence": ["Commercial","Freeware"],			"os": ["Linux","Mac OS X"]		}

@@ -1,0 +1,437 @@
+{
+  "name": "GSNAP_stampede",
+  "version": "121212",
+  "helpURI": "https://github.com/julian-gehring/GMAP-GSNAP",
+  "label": "GSNAP-121212",
+  "defaultQueue": "normal",
+  "defaultRequestedTime": "4:00:00",
+  "shortDescription": "Spliced alignment tool",
+  "longDescription": "GSNAP, a multithreaded, gapped mapper for ESTs",
+  "executionSystem": "stampede.tacc.utexas.edu",
+  "executionType": "HPC",
+  "parallelism": "SERIAL",
+  "deploymentPath": "/ipcservices/applications/GSNAP_stampede-121212u2.zip",
+  "deploymentSystem": "data.iplantcollaborative.org",
+  "templatePath": "gsnap_wrapper.sh",
+  "testPath": "test/geneseqer_wrapper_test.sh",
+  "checkpointable": true,
+  "tags": [
+    "aligner",
+    "NGS",
+    "EST",
+    "SAM"
+  ],
+  "modules": [
+    "purge",
+    "load TACC",
+    "load irods"
+  ],
+  "inputs": [
+    {
+      "id": "spliceIndex",
+      "details": {
+        "label": "splice index path",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reference_data",
+      "details": {
+        "label": "reference indexes",
+        "description": "Sequence file indexes",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 0,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "reference",
+      "details": {
+        "label": "reference",
+        "description": "Sequence file in fasta format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 0,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "seqFolder",
+      "details": {
+        "label": "sequence folder:",
+        "description": "Folder of sequence files in fastq or fasta",
+        "showAttribute": false
+      },
+      "semantics": {
+        "minCardinality": 1,
+        "ontology": [
+          "http://sswapmeet.sswap.info/sequence/FASTA"
+        ],
+        "fileTypes": [
+          "fasta-0"
+        ]
+      },
+      "value": {
+        "required": true,
+        "visible": true
+      }
+    }
+  ],
+  "parameters": [
+    {
+      "id": "novelSplicing",
+      "details": {
+        "label": "novel splicing or not",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "quality",
+      "details": {
+        "label": "quality format",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "readGroupID",
+      "details": {
+        "label": "read group ID",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "gmapMode",
+      "details": {
+        "label": "GMAP mode",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "readGroupPlatform",
+      "details": {
+        "label": "read group platform",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "indx",
+      "details": {
+        "label": "index name",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "maxMismatch",
+      "details": {
+        "label": "maximum mismatch",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "adapterStrip",
+      "details": {
+        "label": "trim adapter sequence",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "orientation",
+      "details": {
+        "label": "pair orientation",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "nPaths",
+      "details": {
+        "label": "maximum number of paths to print",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "newgenome",
+      "details": {
+        "label": "new genome to be indexed -- or not",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "indelPenalty",
+      "details": {
+        "label": "indel penalty",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "seqmode",
+      "details": {
+        "label": "paired or unpaired",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "default": "unpaired",
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "readGroupName",
+      "details": {
+        "label": "read group name",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "gmapTrigger",
+      "details": {
+        "label": "Gmap trigger",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "nonExcess",
+      "details": {
+        "label": "skip reads with excessive hits",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "gunZip",
+      "details": {
+        "label": "unzip reads",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "chastity",
+      "details": {
+        "label": "use Illumina chastity entries",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    },
+    {
+      "id": "readGroupLibrary",
+      "details": {
+        "label": "read group library",
+        "showAttribute": false
+      },
+      "semantics": {
+        "ontology": [
+          "xs:string"
+        ]
+      },
+      "value": {
+        "type": "string",
+        "visible": true,
+        "required": false
+      }
+    }
+  ]
+}

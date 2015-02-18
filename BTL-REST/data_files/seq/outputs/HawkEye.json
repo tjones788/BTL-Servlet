@@ -1,0 +1,1 @@
+{"author": "","hits": "1518","cited": "32","refs": "1","label": "HawkEye",			"summary": ["An interactive visual analytics tool for genome assemblies."],			"meth_tags": ["Assembly visualization"],			"features": ["Assembly visualization"],			"language": ["C++"],			"licence": ["Artistic License"],			"os": ["Linux","Mac OS X"]		}

@@ -1,0 +1,1 @@
+{"author": "","hits": "898","cited": "7","refs": "1","label": "FLASH",			"summary": ["Identifies paired-end reads which overlap in the middle, converting them to single long reads"],			"meth_tags": ["Assembly","Read pre-processing"],			"features": ["combining forward and reverse reads"],			"language": ["C"],			"licence": ["Open Source"],			"os": ["Linux 64"]		}
